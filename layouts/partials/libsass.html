@@ -1,0 +1,9 @@
+{{ $opts := (dict "transpiler" "libsass" "outputStyle" "compressed" "includePaths" (slice "node_modules")) }}
+{{ if eq hugo.Environment "development" }}
+  {{ $opts = (dict "transpiler" "libsass" "enableSourceMap" true "includePaths" (slice "node_modules")) }}
+{{ end }}
+
+{{ $css := resources.Get . }}
+{{ $css = $css | toCSS $opts }}
+
+<link rel="stylesheet" href="{{ $css.RelPermalink }}">
