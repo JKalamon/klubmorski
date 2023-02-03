@@ -3,6 +3,73 @@ $font-family-base: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto,
   "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
 
 $primary: #29176d;
+$secondary: #E67D36;
+$line-height-base: 2;
+$font-size-base: 1.05rem;
+$link-color: #6ec1e4;
+$link-decoration: none;
+
+@import "bootstrap/scss/functions";
+
+// 2. Include any default variable overrides here
+
+// 3. Include remainder of required Bootstrap stylesheets
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/maps";
+
+//$navbar-light-toggler-icon-bg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#{rgba($body-color, .75)}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+// 4. Include any optional Bootstrap components as you like
+@import "bootstrap/scss/root";
+@import "bootstrap/scss/reboot";
+@import "bootstrap/scss/type";
+@import "bootstrap/scss/images";
+@import "bootstrap/scss/containers";
+@import "bootstrap/scss/grid";
+@import "bootstrap/scss/navbar";
+@import "bootstrap/scss/nav";
+@import "bootstrap/scss/transitions";
+@import "bootstrap/scss/buttons";
+@import "bootstrap/scss/utilities";
+@import "bootstrap/scss/utilities/api";
 
 @import "header";
-@import "bootstrap/scss/bootstrap";
+@import "footer";
+@import "icons";
+
+h1{
+  font-weight: 600;
+}
+
+h2{
+  margin-top:1rem;
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+}
+
+.fs-7{
+  font-size: 0.9rem;
+}
+
+.fs-8{
+  font-size: 0.8rem;
+}
+.fs-9{
+  font-size: 0.7rem;
+}
+
+.single-page {
+  img {
+    @mixin img-fluid {
+      // Part 1: Set a maximum relative to the parent
+      max-width: 100%;
+      // Part 2: Override the height to auto, otherwise images will be stretched
+      // when setting a width and height attribute on the img element.
+      height: auto;
+    }
+  }
+  ol li, ul li{
+   padding-left: 16px; 
+  }
+}
+

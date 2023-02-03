@@ -1,9 +1,12 @@
 {{ $opts := (dict "transpiler" "libsass" "outputStyle" "compressed" "includePaths" (slice "node_modules")) }}
+{{ $suffix := "" }}
 {{ if eq hugo.Environment "development" }}
   {{ $opts = (dict "transpiler" "libsass" "enableSourceMap" true "includePaths" (slice "node_modules")) }}
+  {{ $suffix = printf "%s" (delimit (shuffle (split (md5 "test") "" )) "") | printf "%s%s" "?v=" | printf "%s" }}
 {{ end }}
 
 {{ $css := resources.Get . }}
 {{ $css = $css | toCSS $opts }}
 
-<link rel="stylesheet" href="{{ $css.RelPermalink }}">
+
+<link rel="stylesheet" href="{{ printf "%s" $suffix | printf "%s%s" $css.RelPermalink | printf "%s"}}">

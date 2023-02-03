@@ -1,0 +1,33 @@
+baseURL: "https://klubmorski.pl/"
+languageCode: "pl"
+title: 'Jacht Klub Morski "Joseph Conrad" w Kołobrzegu'
+menu:
+  main:
+  - identifier: wladze
+    name: Kim jesteśmy
+    url: /wladze/
+    weight: 1
+  - identifier: aktualnosci
+    name: Aktualności
+    url: /aktualnosci/
+    weight: 2
+  - identifier: historia-klubu
+    name: Historia klubu
+    url: /historia-klubu/
+    weight: 3
+  - identifier: patron-klubu
+    name: Patron klubu
+    url: /patron-klubu/
+    weight: 4
+  - identifier: galerie
+    name: Galerie
+    url: /galerie/
+    weight: 5
+  - identifier: statut
+    name: Statut
+    url: /statut/
+    weight: 6
+  - identifier: kontakt
+    name: Kontakt
+    url: /kontakt/
+    weight: 7

@@ -1,0 +1,66 @@
+footer {
+  background-color: #333133;
+  background-image: url("/images/footer.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 30px;
+  margin-bottom: 0;
+  padding: 220px 0 50px;
+  color: #fff;
+
+  @include media-breakpoint-down(md) {
+    &{
+      padding: 120px 0 50px;
+    }
+  }
+
+  @media screen and (min-width: 3960px) {
+    &{
+      background-size: cover;
+    }
+  }
+  
+  .icons{
+    a {
+      width: 50px;
+      height: 50px;
+      line-height: 55px;
+      display: inline-block;
+      border-radius: 50%;
+      font-size: 25px;
+      color: #fff;
+    }
+    .fb-icon{
+      background-color: #3B5998;
+      transition: 0.3s ease-in-out;
+      &:hover{
+        background-color: darken(#3B5998, 7);
+      }
+    }
+
+    .insta-icon{
+      background-color: #C13584;
+      transition: 0.3s ease-in-out;
+      &:hover{
+        background-color: darken(#C13584, 7);
+      }
+    }
+
+    .yt-icon{
+      background-color: #FF0000;
+      transition: 0.3s ease-in-out;
+      &:hover{
+        background-color: darken(#FF0000, 7);
+      }
+    }
+  }
+}
+
+.copyright{
+  background: #000;
+  color: #fff;
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 15px 0;
+}

@@ -1,38 +1,44 @@
-<div class="header container">
-  <div class="row">
-    <div class="col-12 col-lg-2">
-      <a href="/" title="Strona główna" id="logo">
-        <img
-          src="Logo-JKM-JC.jpg"
-          alt="Logo Jacht Klub Morski Joseph Conrad w Kołobrzegu"
-        />
-      </a>
+<header class="container">
+  <nav class="navbar navbar-expand-lg navbar-brand">
+    <a href="/" title="Strona główna" id="logo">
+      <img
+        src="/Logo-JKM-JC.jpg"
+        alt="Logo Jacht Klub Morski Joseph Conrad w Kołobrzegu"
+      />
+    </a>
+    <div class="ms-0 ms-lg-3 menu-column">
+      <div class="d-none d-lg-block text-end">
+        <button class="btn btn-lg btn-primary"><i aria-hidden="true" class="icon kmi-boat me-2 fs-3"></i>Dołącz do nas</button>
+      </div>
+      <button
+        class="navbar-toggler mt-3"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav w-100">
+          {{ $currentPage := . }}
+
+          {{ range .Site.Menus.main }}
+          <li class="nav-item">
+            <a class="nav-link {{ if eq .URL $currentPage.URL }}active{{ end }}" href="{{ .URL }}">
+              {{- .Name -}}
+            </a>
+          </li>
+          {{ end }}
+          <li class="nav-item d-block d-lg-none">
+            <a class="nav-link text-primary" href="/dolacz-do-nas/">
+              Dołącz do nas
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
-    <div class="col-12 col-lg-10">
-      <button class="btn btn-lg btn-primary mb-3">Dołącz do nas</button>
-      <ul class="nav nav-pills">
-        <li class="nav-item">
-          <a href="/wladze/">Kim jesteśmy</a>
-        </li>
-        <li class="nav-item">
-          <a href="/aktualnosci/">Aktualności</a>
-        </li>
-        <li class="nav-item">
-          <a href="/historia-klubu/">Historia klubu</a>
-        </li>
-        <li class="nav-item">
-          <a href="/patron-klubu/">Patron klubu</a>
-        </li>
-        <li class="nav-item">
-          <a href="/galerie/">Galerie</a>
-        </li>
-        <li class="nav-item">
-          <a href="/statut/">Statut</a>
-        </li>
-        <li class="nav-item">
-          <a href="/kontakt/">Kontakt</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</div>
+  </nav>
+</header>
