@@ -1,0 +1,47 @@
+{{ define "main" }}
+<div class="post-header" style="background-image: url({{ .Params.bg }});">
+  <h1>{{ .Title}}</h1>
+  <div class="date">
+    <i aria-hidden="true" class="kmi kmi-calendar-outline"></i>
+    {{.Date.Format "02.01.2006"}}
+  </div>
+  <div style="height: 150px; overflow: hidden">
+    <svg
+      viewBox="0 0 500 150"
+      preserveAspectRatio="none"
+      style="height: 100%; width: 100%"
+    >
+      <path
+        d="M0.00,49.98 C201.75,224.50 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+        style="stroke: none; fill: #fff"
+      ></path>
+    </svg>
+  </div>
+</div>
+<div class="container single-page">
+  <div class="row">
+    <div class="col-12 col-lg-9">
+      {{ .Content }}
+    </div>
+    <div class="col-12 col-lg-3">
+      {{ $currentPage := . }}
+      {{ $newest := where .Site.Pages "Type" "aktualnosci" }}
+      {{ $newest = where $newest "IsPage" true}}
+      {{ $newest = where $newest "Permalink" "!=" $currentPage.Permalink}}
+      
+      
+      {{ range (first 2 $newest) }}
+          <div class="post-card">
+            <a href="{{ .Permalink }}">
+              <img src="{{.Params.bgthumb}}"/>
+            </a>
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+            {{ .Summary | plainify | truncate 130 }}
+            {{ .Date.Format "2006-01-02" }}       
+
+          </div>
+      {{ end }}      
+    </div>
+  </div>
+</div>
+{{ end }}
