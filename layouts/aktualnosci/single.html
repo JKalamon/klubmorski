@@ -35,10 +35,13 @@
             <a href="{{ .Permalink }}">
               <img src="{{.Params.bgthumb}}"/>
             </a>
-            <a href="{{ .Permalink }}">{{ .Title }}</a>
-            {{ .Summary | plainify | truncate 130 }}
-            {{ .Date.Format "2006-01-02" }}       
-
+            <div class="summary">
+              <a href="{{ .Permalink }}">{{ .Title }}</a>
+              {{ .Summary | plainify | truncate 130 }}
+              <div class="date">
+                {{ .Date.Format "2 stycznia 2006" }}       
+              </div>
+            </div>
           </div>
       {{ end }}      
     </div>
