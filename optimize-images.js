@@ -2,7 +2,7 @@ const sharp = require('sharp');
 const fs = require('fs');
 const path = require('path');
 
-const inputFolders = ['static/images/dzwon2022', 'static/images/dorsz2022'];
+const inputFolders = ['static/images/dzwon2022', 'static/images/dorsz2022', 'static/images/dzwon2021', 'static/images/dzwon2020', 'static/images/misc'];
 
 inputFolders.forEach(inputFolder => {
   fs.readdir(inputFolder, (err, files) => {

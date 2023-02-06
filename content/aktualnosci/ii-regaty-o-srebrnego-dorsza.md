@@ -1,8 +1,8 @@
 ---
 title: "II Regaty o Srebrnego Dorsza"
 date: 2022-06-28T12:00:00+01:00
-bg: "/images/dzwon2022/DSC05083.jpg"
-bgthumb: "/images/dzwon2022/DSC05083-thumb.jpg"
+bg: "/images/dzwon2021/DSC05962.jpg"
+bgthumb: "/images/dzwon2021/DSC05962-thumb.jpg"
 draft: false
 ---
 
