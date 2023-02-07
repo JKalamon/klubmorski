@@ -27,7 +27,7 @@
 
           {{ range .Site.Menus.main }}
           <li class="nav-item">
-            <a class="nav-link {{ if eq .URL $currentPage.URL }}active{{ end }}" href="{{ .URL }}">
+            <a class="nav-link {{ if eq .URL $currentPage.RelPermalink }}active{{ end }}" href="{{ .URL }}">
               {{- .Name -}}
             </a>
           </li>

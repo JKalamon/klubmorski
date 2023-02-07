@@ -1,5 +1,5 @@
 ---
-title: "I Regat o Błękitnego Dorsza"
+title: "I Regaty o Błękitnego Dorsza"
 date: 2021-06-08T12:00:00+01:00
 bg: "/images/dzwon2020/197454890_213086230641848_282122348892803904_n.png"
 bgthumb: "/images/dzwon2020/197454890_213086230641848_282122348892803904_n-thumb.png"
@@ -9,7 +9,7 @@ draft: false
 ## Ahoj!
 Sytuacja ‘covidova” znacząco się poprawia to i my ostro przystępujemy do działania!
 
-Już **26.06.2021** (sobota) spotykamy się na wodzie (i lądzie) żeby troszkę pościgać się w **I Regatach o Błękitnego Dorsza**, które odbędą się dzięki dotacji z Koszalińskiej Agencji Rozwoju Regionalnego S.A. – pięknie dziękujemy!
+Już **26.06.2021** (sobota) spotykamy się na wodzie (i lądzie) żeby troszkę pościgać się w **I Regatach o Błękitnego Dorsza**, które odbędą się dzięki dotacji z [Koszalińskiej Agencji Rozwoju Regionalnego S.A.](https://karrsa.eu/) – pięknie dziękujemy!
 
 Przewidujemy rozegranie 3-5 wyścigów w okolicach kołobrzeskiego molo. Będą oczywiście drobne nagrody, coś na ząb po zmaganiach – też a przede wszystkim dobra sportowa zabawa!
 
