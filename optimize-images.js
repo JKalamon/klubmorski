@@ -15,7 +15,7 @@ inputFolders.forEach(inputFolder => {
       const inputFile = path.join(inputFolder, file);
       const outputFile = path.join(inputFolder, file.split('.')[0] + '-thumb.' + file.split('.')[1]);
       sharp(inputFile)
-        .resize({ width: 500, height: 500, fit: 'inside' })
+        .resize({ width: 700, height: 700, fit: 'inside' })
         .toFile(outputFile)
         .then(info => {
           console.log(`Image ${file} was resized and optimized`);

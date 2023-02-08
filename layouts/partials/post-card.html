@@ -1,0 +1,15 @@
+<div class="post-card">
+  <a href="{{ .Permalink }}" class="post-image">
+    <img src="{{.Params.bgthumb}}" srcset="{{.Params.bgthumb}} 700w, {{.Params.bg}} 1500w"/>
+  </a>
+  <div class="summary">
+    <a href="{{ .Permalink }}" class="title">{{ .Title }}</a>
+    {{ .Summary | plainify | truncate 130 }}
+
+    <a href="{{ .Permalink }}" class="read-more">Czytaj więcej »</a>
+
+    <div class="date">
+      {{.Date.Day }} {{ index site.Data.months_polish (printf "%d" .Date.Month) }} {{ .Date.Year }}
+    </div>
+  </div>
+</div>

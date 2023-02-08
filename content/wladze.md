@@ -1,7 +1,7 @@
 ---
 title: "XLIII Regaty O Srebrny Dzwon - wyniki"
+description: 'Jesteśmy klubem żeglarskim w Kołobrzegu. Siedzibą JKM “Joseph Conrad” jest kołobrzeska Marina Solna. Działamy jako zarejestrowane stowarzyszenie sportowe.'
 date: 2022-08-05T12:00:00+01:00
-draft: false
 ---
 
 # Kim jesteśmy

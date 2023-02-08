@@ -1,3 +1,158 @@
-{{ define "main" }} 
-  {{ .Content }} 
+{{ define "main" }}
+<div class="container">
+  <h2>Aktualności</h2>
+  {{ $currentPage := . }} 
+  {{ $newest := where .Site.Pages "Type" "aktualnosci" }} 
+  {{ $newest = where $newest "IsPage" true}} 
+  {{ $newest = where $newest "Permalink" "!=" $currentPage.Permalink}}
+
+  <div class="row">
+    <div class="col-12">
+      {{ range (first 1 $newest) }} {{partial "post-card.html" .}} {{ end }}
+    </div>
+    {{ range (first 5 $newest | last 4) }}
+    <div class="col-md-6 col-12">{{partial "post-card.html" .}}</div>
+    {{ end }}
+  </div>
+
+  <div class="text-end">
+    <a class="btn btn-primary" href="/aktualnosci">Zobacz pozostałe posty</a>
+  </div>
+
+  <h2>Nasze jachty</h2>
+  <div class="boat-card d-md-flex justify-content-center align-items-center">
+    <div class="image">
+      <img class="w-100 w-md-auto"src="images/misc/difur-thumb.jpg" />
+    </div>
+    <div class="content p-5">
+      <h3 class="mb-5">S/y Difur​</h3>
+      <p> Jacht balastowy typu Conrad 24 zbudowany w Stoczni Jachtowej im. J.Conrada w Gdańsku w 1978 roku </p>
+        
+      <p>
+        Typ ożaglowania: slup bermudzki <br/>
+        Długość całkowita: 7,26 m<br/>
+        Szerokość: 2,64 m<br/>
+        Powierzchnia żagli: 30 m2<br/>
+        Załoga: 4 osoby <br/>
+        Zakres żeglugi: przybrzeżna
+      </p>
+      
+    </div>
+  </div>
+
+  <div class="boat-card d-md-flex justify-content-center align-items-center">
+    <div class="image">
+      <img class="w-100 w-md-auto"src="images/misc/fayna.jpg" />
+    </div>
+    <div class="content p-5">
+      <h3 class="mb-5">S/y Fayna</h3>
+      <p> Jacht balastowy typu Thompson l-27 zbudowany w Stoczni Morgan Marine w Chichester w Anglii </p>
+        
+      <p>
+        Typ ożaglowania: slup bermudzki <br/>
+        Długość całkowita: 8,20 m<br/>
+        Szerokość: 2,45 m<br/>
+        Powierzchnia żagli: 30 m2<br/>
+        Załoga: 4 osoby <br/>
+        Zakres żeglugi: przybrzeżna
+      </p>
+      
+    </div>
+  </div>
+
+  <h2>Galerie</h2>
+  {{ $newest := where .Site.Pages "Type" "galerie" }} 
+  {{ $newest = where $newest "IsPage" true}} 
+  {{ $newest = where $newest "Permalink" "!=" $currentPage.Permalink}}
+
+  <div class="row">    
+    {{ range (first 2 $newest) }}
+    <div class="col-md-6 col-12">{{partial "post-card.html" .}}</div>
+    {{ end }}
+  </div>
+
+  <h2>Nasi partnerzy</h2>
+  <div class="siema">
+    <div class="partner-item">
+      <img src="/images/partners/akademia-ratownictwa.png" alt="Akademia ratownictwa logo" />
+      <div>Akademia Ratownictwa</div>
+    </div>
+    <div class="partner-item">
+      <img src="/images/partners/karr-logo.png" alt="Koszalińska Agencja Rozwoju Regionalnego S.A. logo" />
+      <div>Koszalińska Agencja Rozwoju Regionalnego S.A.</div>
+    </div>
+    <div class="partner-item">
+      <img src="/images/partners/logo_kolobrzeg.png" alt="Prezydent i Rada Miasta Kołobrzeg logo" />
+      <div>Prezydent i Rada Miasta Kołobrzeg</div>
+    </div>
+    <div class="partner-item">
+      <img src="/images/partners/marina-logo.jpg" alt="Marina Solna Kołobrzeg logo" />
+      <div>Marina Solna Kołobrzeg</div>
+    </div>
+    <div class="partner-item">
+      <img src="/images/partners/mosir.png" alt="Miejski Ośrodek Sportu i Rekreacji Kołobrzeg logo" />
+      <div>Miejski Ośrodek Sportu i Rekreacji</div>
+    </div>
+    <div class="partner-item">
+      <img src="/images/partners/port-kolobrzeg.png" alt="Port Kołobrzeg logo" />
+      <div>Port Kołobrzeg</div>
+    </div>
+    <div class="partner-item">
+      <img src="/images/partners/starostwo-powiatowe.png" alt="Starostwo Powiatowe Kołobrzeg logo" />
+      <div>Starostwo Powiatowe Kołobrzeg</div>
+    </div>
+    <div class="partner-item">
+      <img src="/images/partners/troton.jpg" alt="Troton logo" />
+      <div>Troton</div>
+    </div>
+  </div>
+
+  <h2>Pogoda i wiatr w Kołobrzegu</h2>
+
+  <a class="weatherwidget-io" href="https://forecast7.com/pl/54d1815d58/kolobrzeg/" data-label_1="KOŁOBRZEG" data-label_2="Pogoda" data-theme="weather_one" >KOŁOBRZEG Pogoda</a>
+  <script>
+    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+  </script>
+
+  <div class="mt-2 w-100">
+    <script type="text/javascript" src="https://www.windfinder.com/widget/forecast/js/kolobrzeg?unit_wave=m&unit_rain=mm&unit_temperature=c&unit_wind=kts&days=4&show_day=1"></script><noscript><a rel='nofollow' href='https://www.windfinder.com/forecast/kolobrzeg?utm_source=forecast&utm_medium=web&utm_campaign=homepageweather&utm_content=noscript-forecast'>Wind forecast for undefined</a> provided by <a rel='nofollow' href='https://www.windfinder.com?utm_source=forecast&utm_medium=web&utm_campaign=homepageweather&utm_content=noscript-logo'>windfinder.com</a></noscript>
+  </div>
+
+  {{ .Content }}
+</div>
+{{ end }}
+
+
+{{ define "script" }}
+<script src="/js/siema.min.js"></script>
+<script>
+  const mySiema = new Siema({
+    perPage: {
+      768: 2,
+      1024: 4,
+    },
+    loop: true 
+  });
+
+  setInterval(function(){
+    mySiema.next();
+  }, 8000);
+  
+</script>
+
+<style>
+  .partner-item{
+    width: 300px;  
+    font-weight: 500;  
+    text-align: center;
+  }
+  .partner-item img{
+    width: 100%;    
+  }
+  @media screen and (max-width: 768px){
+    .partner-item{
+      width: 100%;  
+    }
+  }
+</style>
 {{ end }}

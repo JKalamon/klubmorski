@@ -20,29 +20,17 @@
 </div>
 <div class="container single-page">
   <div class="row">
-    <div class="col-12 col-lg-9">
+    <div class="col-12 col-lg-8">
       {{ .Content }}
     </div>
-    <div class="col-12 col-lg-3">
+    <div class="col-12 col-lg-4">
       {{ $currentPage := . }}
       {{ $newest := where .Site.Pages "Type" "aktualnosci" }}
       {{ $newest = where $newest "IsPage" true}}
       {{ $newest = where $newest "Permalink" "!=" $currentPage.Permalink}}
       
-      
       {{ range (first 2 $newest) }}
-          <div class="post-card">
-            <a href="{{ .Permalink }}">
-              <img src="{{.Params.bgthumb}}"/>
-            </a>
-            <div class="summary">
-              <a href="{{ .Permalink }}">{{ .Title }}</a>
-              {{ .Summary | plainify | truncate 130 }}
-              <div class="date">
-                {{ .Date.Format "2 stycznia 2006" }}       
-              </div>
-            </div>
-          </div>
+        {{partial "post-card.html" .}}
       {{ end }}      
     </div>
   </div>

@@ -2,11 +2,14 @@
 {{ define "main" }}
 <div class="container single-page">
   <h1>Aktualności</h1>
+  <div class="row">
   {{ $pages := .Data.Pages }}
   {{ range $pages }}
-      <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+  <div class="col-md-6 col-12">
+    {{partial "post-card.html" .}}
+  </div>
   {{ end }}
-  
+</div>
 </div>
 {{ end }}
 
