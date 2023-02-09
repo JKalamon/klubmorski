@@ -17,6 +17,7 @@ Dopisało wszytko: fekwencja, pogoda, nagrody!!! Dziękujemy przede wszystkim uc
 ## Podziękowania dla sponsorów
 
 Wielkie ukłony dla sponsorów i partnerów, bez których impreza nie miałaby takiej oprawy:
+
 - [Urząd Miasta Kołobrzeg](https://i-kolobrzeg.pl/) i szczególne podziękowania dla pani prezydent Annie Mieczkowskej
 - [Zarząd Portu Morskiego Kołobrzeg](https://zpmkolobrzeg.pl/)
 - [San Media Spa](https://san.pl/)

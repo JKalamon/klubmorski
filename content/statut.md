@@ -435,4 +435,4 @@ Zmiana Statutu może być uchwalona przez Walne Zebranie Członków większości
 
 &nbsp;
 
-**[Statut-JKM-Joseph-Conrad (stary)](Statut-JKM-Joseph-Conrad.doc)**
+**[Statut-JKM-Joseph-Conrad (stary)](/Statut-JKM-Joseph-Conrad.doc)**

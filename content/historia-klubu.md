@@ -9,7 +9,7 @@ Nazwa “Joseph Conrad” pierwszy raz pojawiła się 23 października 1956 roku
 
 Początki były trudne, jednak udawało się zorganizować kolejne coraz dalsze rejsy morskie. W odbudowanym własnymi siłami forcie rozpoczęto działalność szkoleniową i organizacyjną. Wielkim przeżyciem były pierwsze rejsy do najbliższych portów polskich, rangi wypraw morskich nabierały rejsy ówczesnego NRD i ZSRR, później Danii, Norwegii itd.
 
-![Pierwsze logo Jacht Klubu Morskiego “Joseph Conrad”](/images/pl_jospeh_conrad.webp "img-fluid d-block m-auto")
+{{< lightbox full="/images/pl_jospeh_conrad.webp" thumbnail="/images/pl_jospeh_conrad.webp" alt="Pierwsze logo Jacht Klubu Morskiego “Joseph Conrad”">}}
 
 {{% class "text-center fs-7" %}}
 Pierwsze logo Jacht Klubu Morskiego “Joseph Conrad”
