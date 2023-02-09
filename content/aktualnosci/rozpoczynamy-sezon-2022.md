@@ -2,8 +2,8 @@
 title: "Rozpoczynamy sezon 2022"
 date: 2022-05-08T12:00:00+01:00
 description: Rozpoczęcie sezonu 2022. Ahoj członkowie JKM “Joseph Conrad”, armatorzy i sympatycy! Troszkę głucho było na tej stronie, co nie znaczy, że nic się nie działo!
-bg: "/images/misc/sezon2022.jpg"
-bgthumb: "/images/misc/sezon2022-thumb.jpg"
+bg: "/images/misc/sezon2022.webp"
+bgthumb: "/images/misc/sezon2022-thumb.webp"
 draft: false
 ---
 
@@ -12,7 +12,7 @@ Ahoj członkowie JKM “Joseph Conrad” (również przyszli), armatorzy i sympa
 ## Rozpoczęcie sezonu
 Zimna wiosna troszkę opóźniła przygotowania ale dwie (Difur i Beau4) z naszych łodzi udało się wyszykować do pływania i wczoraj sprawnie poszły na wodę!
 
-{{< lightbox full="/images/misc/wodowanie_2022.jpg" thumbnail="/images/misc/wodowanie_2022-thumb.jpg" alt="Wodowanie łodki Difur S/y">}}
+{{< lightbox full="/images/misc/wodowanie_2022.webp" thumbnail="/images/misc/wodowanie_2022-thumb.webp" alt="Wodowanie łodki Difur S/y">}}
 
 Fayna czeka na remont steru, którego wkrótce doczeka się. Tak więc do dyspozycji mamy wciąż 3 dzielne jachty:
 
@@ -22,7 +22,7 @@ Fayna czeka na remont steru, którego wkrótce doczeka się. Tak więc do dyspoz
 
 Korzystając z pięknej słonecznej pogody ruszyliśmy dziś w morze i okręty prezentowały się na prawdę zacnie! Oczywiście coś do zrobienia jeszcze zostało i na bieżąco działamy!
 
-{{< lightbox full="/images/misc/sezon2022.jpg" thumbnail="/images/misc/sezon2022-thumb.jpg" alt="">}}
+{{< lightbox full="/images/misc/sezon2022.webp" thumbnail="/images/misc/sezon2022-thumb.webp" alt="">}}
 
 ## Nadchodzący sezon
 Ramy nadchodzącego sezonu wyznaczać będą regaty, które bądź organizujemy bądź jesteśmy partnerami.

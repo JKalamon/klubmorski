@@ -2,8 +2,8 @@
 title: Nowe władze JKM „Joseph Conrad”
 date: 2020-01-16T12:00:00+01:00
 description: Dnia 12.01.2020 w Marinie Solnej w Kołobrzegu odbyło się Zebranie Sprawozdawczo – Wyborcze JKM „Joseph Conrad”. Frekwencja dopisała – ok. 30 głosujących członków.
-bg: "/images/misc/bakista3.jpg"
-bgthumb: "/images/misc/bakista3-thumb.jpg"
+bg: "/images/misc/bakista3.webp"
+bgthumb: "/images/misc/bakista3-thumb.webp"
 draft: false
 ---
 

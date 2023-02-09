@@ -11,7 +11,7 @@ Twórczość literacka Josepha Conrada-Korzeniowskiego, oparta w znacznej mierze
 
 Od wczesnej młodości, przez niemal dwadzieścia lat, Konrad Korzeniowski pływał na żaglowcach i statkach francuskich, później brytyjskich. Zaczynał jako zwykły marynarz (ordinary seaman) służbą before the mast. Podnosząc swoje kwalifikacje (poparte zdawanymi egzaminami), osiągał stanowiska oficerskie, aż do funkcji kapitana. Pływał po morzach i oceanach niemalże całego świata.
 
-![Joseph Conrad](/images/joseph_conrad.jpg "img-fluid d-block m-auto")
+![Joseph Conrad](/images/joseph_conrad.webp "img-fluid d-block m-auto")
 
 {{% class "text-center fs-7" %}}
 Joseph Conrad w 1916r.
@@ -21,7 +21,7 @@ I właśnie w jednym z takich oceanicznych rejsów, na trasie z Sydney do Londyn
 
 Żeglując wokół przylądka Horn, dotarł do Londynu 19. października tego samego roku. Korzeniowski był w załodze klipra przez cały czas, co poświadczyli kapitan żaglowca John McKay i armator Daniel Louttit ze Szkocji, wystawiając stosowną opinię z rejsu – świadectwo służby (Certificate of Discharge).
 
-![Duke of Sutherland](/images/duke-of-sutherland.jpg "img-fluid d-block m-auto")
+![Duke of Sutherland](/images/duke-of-sutherland.webp "img-fluid d-block m-auto")
 
 {{% class "text-center fs-7" %}}
 fragmenty panoramy na Circular Quay w Sydney, 1871
@@ -32,7 +32,7 @@ Po pobycie na lądzie, urozmaiconym krótkim rejsem na Morze Śródziemne, i po 
 
 Kapitanem tego z kolei klipra był znany, budzący podziw wśród marynarzy i armatorów William Stuart. Konrad był na Loch Etive „najmłodszym z oficerów, trzecim pomocnikiem pełniącym służbę u boku pierwszego oficera”. Po półtoramiesięcznym pobycie w Sydney i załadowaniu klipra wełną (stąd określenie Conrada: „pływałem we flocie wełnianej”), Loch Etive wyruszył w drogę powrotną do Anglii wokół Hornu. Umiejętności żeglarskie Konrada musiały być dobre, skoro – gdy zachorował drugi oficer – kapitan awansował Korzeniowskiego na oficera wachtowego, „czuwającego samodzielnie nad pokładem”. Conrad, w Zwierciadle morza, tak komentuje ten fakt: „Było to pewnego rodzaju uznanie dla młodzika, że dowódca taki jak kapitan S. mu zaufał, pozornie bez żadnego nadzoru”. Młody oficer pokładowy, doceniony przez odważnego „kapitana S.”, który „niezdolny był niejako z natury do wydania oficerom rozkazu by skrócili żagle”, poczuł pełnię oceanicznej i marynarskiej swobody i „sam też sadził żagle na wysokich masztach…. jak nie sadził ich nigdy przedtem ani potem”. Trasę do Londynu, wokół Hornu, przebyli w czasie o miesiąc krótszym niż poprzednio na Duke’u. Doświadczenie i odwaga kapitana Stuarta, a także poczynania oficerów wachtowych, skutkowały dobrą żeglarską robotą.
 
-![Loch Etive](/images/loch-etive.jpg "img-fluid d-block m-auto")
+![Loch Etive](/images/loch-etive.webp "img-fluid d-block m-auto")
 
 {{% class "text-center fs-7" %}}
 Loch Etive, odbitka żelatynowo-srebrowa; fot. Allan C. Green (1878-1954); archiwum State Library of Victoria, Australia
@@ -49,7 +49,7 @@ Po prawie dwudziestu latach niełatwej pracy na żaglowcach i statkach, Konrad K
 ## Jospeh Conrad-Korzeniowski marynarz i żeglarz
 W takim kontekście Joseph Conrad-Korzeniowski niewątpliwie był w pełni nie tylko marynarzem, ale i żeglarzem, i to takim, który w młodości opłynął Cape Horn. Nie dożył czasu gdy we Francji  powstało AICH (L’Amicale Internationale des Capitaines au Long Cours Cap Horniers,1937r.), Międzynarodowe  Stowarzyszenie Kapitanów Kaphornowych, które zrzeszało nie tylko kapitanów, ale także uczestników rejsów żaglowcami wokół przylądka Horn. Na pewno byłby jego członkiem. Tym bardziej mógłby obecnie patronować współczesnemu żeglarskiemu Bractwu Kaphornowców.
 
-![Cape Horn](/images/cape-horn.jpg "img-fluid d-block m-auto")
+![Cape Horn](/images/cape-horn.webp "img-fluid d-block m-auto")
 
 {{% class "text-center fs-7" %}}
 Cape Horn

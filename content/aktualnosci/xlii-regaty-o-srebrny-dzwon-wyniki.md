@@ -2,8 +2,8 @@
 title: "XLII Regaty o Srebrny Dzwon – wyniki"
 date: 2021-08-03T12:00:00+01:00
 description: XLII Regaty o Srebrny Dzwon 2021 zakończone! Nerwów było niemało. Na starcie stanęło 17 łodzi. Wyniki, podziękowania i gratulacje.
-bg: "/images/dzwon2021/DSC05987.jpg"
-bgthumb: "/images/dzwon2021/DSC05987-thumb.jpg"
+bg: "/images/dzwon2021/DSC05987.webp"
+bgthumb: "/images/dzwon2021/DSC05987-thumb.webp"
 draft: false
 ---
 
@@ -12,11 +12,11 @@ XLII Regaty o **Srebrny Dzwon 2021** zakończone!
 
 Nerwów było niemało, prognozy pogody sprawdzane kilka razy dziennie i nawet plan awaryjny był, gdyby Neptun postanowił mocniej dmuchnąć. “Rada mędrców” słuszną decyzje podjęła puszczając wyścig wcześniej, bo wiaterek szybko wzmagał. Rozsądną decyzją było założenie jednego czy dwóch refów, co nie wszyscy uczynili, łącznie z piszącym te słowa.
 
-{{< lightbox full="/images/dzwon2021/DSC05987.jpg" thumbnail="/images/dzwon2021/DSC05987-thumb.jpg" alt="">}}
+{{< lightbox full="/images/dzwon2021/DSC05987.webp" thumbnail="/images/dzwon2021/DSC05987-thumb.webp" alt="">}}
 
 Na starcie stanęło 17 łodzi w tym takie, które rzadko do Kołobrzegu zawijają, jak superregatowa maszyna – Fujimo 4 czy niemiecki kolega na dość nietypowej łodzi – TRI4FUN. A żeglarze dojechali z całej niemal Polski – Kraków, Trójmiasto, Poznań, Śląsk, Dziwnów i oczywiście sąsiedzi zza Odry, nie zapominając o tubylcach!
 
-{{< lightbox full="/images/dzwon2021/DSC06021.jpg" thumbnail="/images/dzwon2021/DSC06021-thumb.jpg" alt="">}}
+{{< lightbox full="/images/dzwon2021/DSC06021.webp" thumbnail="/images/dzwon2021/DSC06021-thumb.webp" alt="">}}
 
 Startowaliśmy wszyscy razem (aczkolwiek łodzie podzielne były na 3 klasy) niewinną krótką halsówką w stronę główek, potem nawrotka i wzdłuż brzegu aż za Kamienny Szaniec przyjemnym baksztagiem, niemniej dało się odczuć, że płyniemy coraz szybciej… Tam boja zwrotna i z powrotem do główek. Żarty skończyły się – wiatr już w porywach 6B i długa halsówka. Chyba nikt suchy nie został…
 

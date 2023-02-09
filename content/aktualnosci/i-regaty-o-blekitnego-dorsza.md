@@ -2,8 +2,8 @@
 title: "I Regaty o Błękitnego Dorsza"
 date: 2021-06-08T12:00:00+01:00
 description: Sytuacja ‘covidova” znacząco się poprawia to i my ostro przystępujemy do działania! Już 26.06.2021 spotykamy się na wodzie w I Regatach o Błękitnego Dorsza.
-bg: "/images/dzwon2020/197454890_213086230641848_282122348892803904_n.png"
-bgthumb: "/images/dzwon2020/197454890_213086230641848_282122348892803904_n-thumb.png"
+bg: "/images/dzwon2020/197454890_213086230641848_282122348892803904_n.webp"
+bgthumb: "/images/dzwon2020/197454890_213086230641848_282122348892803904_n-thumb.webp"
 draft: false
 ---
 c
@@ -18,6 +18,6 @@ Wpisowe tradycyjnie symboliczne – 50 zł od jachtu, przy czym członkowie (ró
 
 Zgłoszenia do regat przyjmujemy [w formie elektronicznej](/formularz-regaty) lub w sekretariacie klubu w dniu regat!
 
-{{< lightbox full="/images/misc/plakat-dorsz2021.jpg" thumbnail="/images/misc/plakat-dorsz2021-thumb.jpg" alt="">}}
+{{< lightbox full="/images/misc/plakat-dorsz2021.webp" thumbnail="/images/misc/plakat-dorsz2021-thumb.webp" alt="">}}
 
 Więcej szczegółów wkrótce! Trymujcie żagle!

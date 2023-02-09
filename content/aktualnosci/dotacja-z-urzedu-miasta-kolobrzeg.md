@@ -2,8 +2,8 @@
 title: Dotacja z Urzędu Miasta Kołobrzeg
 date: 2020-03-08T12:00:00+01:00
 description: Otrzymaliśmy dotację z Urzędu Miasta Kołobrzeg na organizację XLI Regat o Srebrny Dzwon!
-bg: "/images/misc/dzwon-cash2.jpg"
-bgthumb: "/images/misc/dzwon-cash2-thumb.jpg"
+bg: "/images/misc/dzwon-cash2.webp"
+bgthumb: "/images/misc/dzwon-cash2-thumb.webp"
 draft: false
 ---
 

@@ -2,8 +2,8 @@
 title: Pani Prezydent Miasta Kołobrzeg honorowym patronem naszych regat
 date: 2020-07-19T12:00:00+01:00
 description: Pragniemy poinformować, że Pani Anna Mieczkowska – prezydent miasta Kołobrzeg – będzie Honorowym Patronem naszych XLI Regat “O Srebrny Dzwon”, które odbędą się 25 lipca.
-bg: "/images/misc/patron-post.jpg"
-bgthumb: "/images/misc/patron-post-thumb.jpg"
+bg: "/images/misc/patron-post.webp"
+bgthumb: "/images/misc/patron-post-thumb.webp"
 draft: false
 ---
 
@@ -11,7 +11,7 @@ Z wielką radością pragniemy poinformować, że Pani Anna Mieczkowska – prez
 
 Poniżej możecie znaleźć oficjalne pismo od Pani prezydent.
 
-{{< lightbox full="/images/misc/patron-post-pismo.jpg" thumbnail="/images/misc/patron-post-pismo-thumb.jpg" alt="">}}
+{{< lightbox full="/images/misc/patron-post-pismo.webp" thumbnail="/images/misc/patron-post-pismo-thumb.webp" alt="">}}
 
 Więcej informacji organizacyjnych na temat naszych regat możecie znaleźć [tutaj](https://klubmorski.pl/aktualnosci/xli-regaty-o-srebrny-dzwon/).\
 Przypominamy, że zapisy wciąż trwają, formularz rejestracyjny można znaleźć [tutaj](https://klubmorski.pl/formularz-regaty-xli-o-srebrny-dzwon/)!

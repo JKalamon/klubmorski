@@ -2,8 +2,8 @@
 title: Wyniki XXXIX Regat „Srebrny Dzwon”
 date: 2018-08-17T12:00:00+01:00
 description: XXXIX Regaty „Srebrny Dzwon” za nami. Pogoda w tym dniu była dla nas łaskawa. Udało się rozegrać 3 zaplanowane wyścigi. Klasyfikacja końcowa regat.
-bg: "/images/misc/rsz_dsc03706-900x300-1.jpg"
-bgthumb: "/images/misc/rsz_dsc03706-900x300-1-thumb.jpg"
+bg: "/images/misc/rsz_dsc03706-900x300-1.webp"
+bgthumb: "/images/misc/rsz_dsc03706-900x300-1-thumb.webp"
 draft: false
 ---
 

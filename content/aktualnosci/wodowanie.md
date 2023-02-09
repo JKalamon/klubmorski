@@ -2,8 +2,8 @@
 title: Wodowanie
 date: 2020-05-17T12:00:00+01:00
 description: 16 maja wbrew przeciwnościom natury – wiatr, ziąb i wirusy – nasze dwie łodzie i 5 armatorskich trafiły do swojego naturalnego środowiska.
-bg: "/images/misc/wodowanie-relacja-2.jpg"
-bgthumb: "/images/misc/wodowanie-relacja-2-thumb.jpg"
+bg: "/images/misc/wodowanie-relacja-2.webp"
+bgthumb: "/images/misc/wodowanie-relacja-2-thumb.webp"
 draft: false
 ---
 

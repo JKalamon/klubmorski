@@ -2,8 +2,8 @@
 title: "XLIII Regaty o Srebrny Dzwon - wyniki"
 date: 2022-08-05T12:00:00+01:00
 description: XLIII Regaty o Srebrny Dzwon za nami! Dziękuję osobiście Zarządowi JKM “Joseph Conrad” za zaangażowanie i kawał dobrej roboty włożonej w organizacje imprezy! Wyniki!
-bg: "/images/dzwon2022/DSC05083.jpg"
-bgthumb: "/images/dzwon2022/DSC05083-thumb.jpg"
+bg: "/images/dzwon2022/DSC05083.webp"
+bgthumb: "/images/dzwon2022/DSC05083-thumb.webp"
 draft: false
 ---
 
@@ -11,7 +11,7 @@ draft: false
 
 Dopisało wszytko: fekwencja, pogoda, nagrody!!! Dziękujemy przede wszystkim uczestnikom – to dla Was działamy!
 
-{{< lightbox full="/images/dzwon2022/DJI_0908-768x1024.jpg" thumbnail="/images/dzwon2022/DJI_0908-768x1024-thumb.jpg" alt="">}}
+{{< lightbox full="/images/dzwon2022/DJI_0908-768x1024.webp" thumbnail="/images/dzwon2022/DJI_0908-768x1024-thumb.webp" alt="">}}
 
 
 ## Podziękowania dla sponsorów
@@ -34,7 +34,7 @@ Wielki szacunek dla [Akademii Ratownictwa](https://akademiaratownictwa.com.pl/) 
 
 Nad sprawami sędziowskimi profesjonalnie czuwał **Mariusz Górnisiewicz** – dziękujemy!
 
-{{< lightbox full="/images/dzwon2022/DSC05018-682x1024.jpg" thumbnail="/images/dzwon2022/DSC05018-682x1024-thumb.jpg" alt="">}}
+{{< lightbox full="/images/dzwon2022/DSC05018-682x1024.webp" thumbnail="/images/dzwon2022/DSC05018-682x1024-thumb.webp" alt="Mariusz Górnisiewicz sędzia regat">}}
 
 ## Wyniki
 

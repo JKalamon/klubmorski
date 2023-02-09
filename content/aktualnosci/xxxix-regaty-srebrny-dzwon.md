@@ -2,8 +2,8 @@
 title: XXXIX Regaty Srebrny Dzwon
 date: 2018-06-07T12:00:00+01:00
 description: Zapraszamy do zgłaszania udziału w XXXIX Regatach Żeglarskich „Srebrny Dzwon”, które odbędą się 21.07.2018 na redzie kołobrzeskiego portu. Dokumenty i formularze.
-bg: "/images/misc/srebrny_dzwon_tlo-900x300-1.jpeg"
-bgthumb: "/images/misc/srebrny_dzwon_tlo-900x300-1-thumb.jpeg"
+bg: "/images/misc/srebrny_dzwon_tlo-900x300-1.webp"
+bgthumb: "/images/misc/srebrny_dzwon_tlo-900x300-1-thumb.webp"
 draft: false
 ---
 

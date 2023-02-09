@@ -2,8 +2,8 @@
 title: "Plany na rok 2021"
 date: 2021-01-27T12:00:00+01:00
 description: Podsumowanie roku. Możliwość umorzenia składek członkowskich za rok 2020. Dotacja KARR S.A. na I Regaty o Błękitnego Dorsza. Pełnomorski rejs szkoleniowy.
-bg: "/images/misc/2021.jpg"
-bgthumb: "/images/misc/2021-thumb.jpg"
+bg: "/images/misc/2021.webp"
+bgthumb: "/images/misc/2021-thumb.webp"
 draft: false
 ---
 

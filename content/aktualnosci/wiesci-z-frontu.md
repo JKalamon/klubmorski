@@ -2,8 +2,8 @@
 title: Wieści z frontu
 date: 2020-04-21T12:00:00+01:00
 description: Wieści z frontu w tych trudnych czasach. Co aktualnie możemy? Popracować przy łódkach, zwodować nasze okręty.
-bg: "/images/misc/Srebrny-Dzwon-2018-4.jpg"
-bgthumb: "/images/misc/Srebrny-Dzwon-2018-4-thumb.jpg"
+bg: "/images/misc/Srebrny-Dzwon-2018-4.webp"
+bgthumb: "/images/misc/Srebrny-Dzwon-2018-4-thumb.webp"
 draft: false
 ---
 
@@ -42,4 +42,4 @@ Odbędą się w wyznaczonym terminie! Być może zmieni się forma i oprawa odro
                                                 Wasz El Komandore
                                                 
 
-{{< lightbox full="/images/misc/wkalamon-576x1024.png" thumbnail="/images/misc/wkalamon-576x1024-thumb.png" alt="">}}
+{{< lightbox full="/images/misc/wkalamon-576x1024.webp" thumbnail="/images/misc/wkalamon-576x1024-thumb.webp" alt="">}}

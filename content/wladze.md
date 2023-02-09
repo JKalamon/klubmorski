@@ -6,7 +6,7 @@ date: 2022-08-05T12:00:00+01:00
 
 # Kim jesteśmy
 
-![Zdjęcie grupowe](/images/ekipa-1.jpg "img-fluid w-100")
+![Zdjęcie grupowe](/images/ekipa-1.webp "img-fluid w-100")
 
 Jesteśmy najstarszym i jedynym aktualnie działającym w Kołobrzegu żeglarskim klubem morskim. Siedzibą JKM “Joseph Conrad” jest piękna kołobrzeska Marina Solna. Działamy jako stowarzyszenie sportowe zarejestrowane w Starostwie powiatu kołobrzeskiego. Staramy się promować nasz piękny sport jako fascynującą i zdrową formę spędzania wolnego czasu.
 

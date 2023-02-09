@@ -2,8 +2,8 @@
 title: "Życzenia Świąteczne"
 date: 2020-12-21T12:00:00+01:00
 description: Wszystkim żeglarzom i sympatykom żeglarstwa życzymy zdrowych, szczęśliwych i wielowymiarowo bogatych Świąt Bożego Narodzenia! Życzy zarząd JKM “Joseph Conrad” 
-bg: "/images/misc/christmas.jpg"
-bgthumb: "/images/misc/christmas-thumb.jpg"
+bg: "/images/misc/christmas.webp"
+bgthumb: "/images/misc/christmas-thumb.webp"
 draft: false
 ---
 \

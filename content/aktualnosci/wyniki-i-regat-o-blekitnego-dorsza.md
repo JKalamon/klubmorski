@@ -2,8 +2,8 @@
 title: "Wyniki I Regat o Błękitnego Dorsza"
 date: 2021-07-05T12:00:00+01:00
 description: No to czas na wyniki I Regat o Błękitnego Dorsza 2021! Start był wspólny dla wszystkich łódek, jednakże podzielone były na 3 klasy. Wyniki!
-bg: "/images/dzwon2020/srebrnydzwon_2020_1.jpeg"
-bgthumb: "/images/dzwon2020/srebrnydzwon_2020_1-thumb.jpeg"
+bg: "/images/dzwon2020/srebrnydzwon_2020_1.webp"
+bgthumb: "/images/dzwon2020/srebrnydzwon_2020_1-thumb.webp"
 draft: false
 ---
 

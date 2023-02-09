@@ -2,8 +2,8 @@
 title: "Regaty, nowy okręt oraz inne wieści"
 date: 2021-05-23T12:00:00+01:00
 description: Udało nam się pozyskać całkiem przyzwoity okręt – jeden z armatorów oddał nam w trzyletnie użytkowanie 27 stopowy jacht Dufour 27 Safari o wdzięcznej nazwie – Beau4.
-bg: "/images/misc/cover_news.jpg"
-bgthumb: "/images/misc/cover_news-thumb.jpg"
+bg: "/images/misc/cover_news.webp"
+bgthumb: "/images/misc/cover_news-thumb.webp"
 draft: false
 ---
 
@@ -12,7 +12,7 @@ Ahoy Kochani! Garść ogłoszeń „parafialnych” – same dobre!!!
 ## Nowy okręt Beau4
 
 \
-{{< lightbox full="/images/misc/cover_news.jpg" thumbnail="/images/misc/cover_news-thumb.jpg" alt="">}}
+{{< lightbox full="/images/misc/cover_news.webp" thumbnail="/images/misc/cover_news-thumb.webp" alt="">}}
 
 
 Udało nam się pozyskać całkiem przyzwoity okręt – jeden z armatorów oddał nam w trzyletnie użytkowanie 27 stopowy jacht Dufour 27 Safari o wdzięcznej nazwie – Beau4. Mamy na nim pełne ożaglowanie łączenie ze spinakerem, 4 koje, kambuz z gazową kuchenką, stacjonarny silnik (odpalił nawet!) i inne gadżety. Nie jest to jacht nowy (stety lub niestety) i wymaga troszkę kosmetyki – szansa na odrobienie godzin bosmańskich! Mamy teraz możliwość organizowania rejsików i rejsów – weekendowych czy dłuższych i zdobywania cennych doświadczeń.

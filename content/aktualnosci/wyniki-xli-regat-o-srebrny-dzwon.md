@@ -2,8 +2,8 @@
 title: Wyniki XLI Regat “O Srebrny Dzwon”
 date: 2020-07-28T12:00:00+01:00
 description: I już po regatach! Mimo ciężkich i niepewnych czasów udało się wszystko posklejać do kupy i wyszła w naszym mniemaniu fajna impreza. Dziękujemy Wam!
-bg: "/images/misc/DSC04451.jpg"
-bgthumb: "/images/misc/DSC04451-thumb.jpg"
+bg: "/images/misc/DSC04451.webp"
+bgthumb: "/images/misc/DSC04451-thumb.webp"
 draft: false
 ---
 
@@ -11,7 +11,7 @@ draft: false
 
 Mimo ciężkich i niepewnych czasów udało się wszystko posklejać do kupy i wyszła w naszym mniemaniu fajna impreza.
 
-{{< lightbox full="/images/misc/DSC04418-576x1024.jpg" thumbnail="/images/misc/DSC04418-576x1024-thumb.jpg" alt="">}}
+{{< lightbox full="/images/misc/DSC04418-576x1024.webp" thumbnail="/images/misc/DSC04418-576x1024-thumb.webp" alt="">}}
 
 ## Dziękujemy Wam!
 
@@ -27,7 +27,7 @@ Dziękuję wszystkim członkom klubu za zaangażowanie w organizację imprezy �
 
 Dziękuję mediom za zainteresowanie i rozpropagowanie imprezy! To wszystko daje nam wielką motywację do dalszego działania i dołożymy wszelkich starań by następne XLII Regaty już w czasach “bezkoronowych”, pretendowały do czołowej imprezy żeglarskiej w naszej części Wybrzeża a Kołobrzeg na stałe został zapisany w corocznych planach żeglarskich maniaków!
 
-{{< lightbox full="/images/misc/DSC04373-1024x576.jpg" thumbnail="/images/misc/DSC04373-1024x576-thumb.jpg" alt="">}}
+{{< lightbox full="/images/misc/DSC04373-1024x576.webp" thumbnail="/images/misc/DSC04373-1024x576-thumb.webp" alt="">}}
 
 ## Wyniki
 
@@ -53,15 +53,15 @@ Regaty rozegrano w trzech klasach i według zasad punktacji [ogłoszonej wcześn
 1. Pahoa – sternik Grzegorz Waszkiewicz – 8,7 pkt
 1. Aloa 25 – sternik Przemek Zarzycki – 11 pkt
 
-{{< lightbox full="/images/misc/DSC04648-1024x576.jpg" thumbnail="/images/misc/DSC04648-1024x576-thumb.jpg" alt="">}}
+{{< lightbox full="/images/misc/DSC04648-1024x576.webp" thumbnail="/images/misc/DSC04648-1024x576-thumb.webp" alt="">}}
 \
-{{< lightbox full="/images/misc/DSC04402-1024x576.jpg" thumbnail="/images/misc/DSC04402-1024x576-thumb.jpg" alt="">}}
+{{< lightbox full="/images/misc/DSC04402-1024x576.webp" thumbnail="/images/misc/DSC04402-1024x576-thumb.webp" alt="">}}
 \
-{{< lightbox full="/images/misc/DSC04626-1024x576.jpg" thumbnail="/images/misc/DSC04626-1024x576-thumb.jpg" alt="">}}
+{{< lightbox full="/images/misc/DSC04626-1024x576.webp" thumbnail="/images/misc/DSC04626-1024x576-thumb.webp" alt="">}}
 \
-{{< lightbox full="/images/misc/DSC04916-1024x576.jpg" thumbnail="/images/misc/DSC04916-1024x576-thumb.jpg" alt="">}}
+{{< lightbox full="/images/misc/DSC04916-1024x576.webp" thumbnail="/images/misc/DSC04916-1024x576-thumb.webp" alt="">}}
 \
-{{< lightbox full="/images/misc/DSC04902-1024x576.jpg" thumbnail="/images/misc/DSC04902-1024x576-thumb.jpg" alt="">}}
+{{< lightbox full="/images/misc/DSC04902-1024x576.webp" thumbnail="/images/misc/DSC04902-1024x576-thumb.webp" alt="">}}
 
 
 **Zapraszamy również do obejrzenia** [naszej obszernej fotorelacji z regat](https://klubmorski.pl/galerie/srebrny-dzwon-2020/).

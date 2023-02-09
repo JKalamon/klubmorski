@@ -2,8 +2,8 @@
 title: XLI Regaty “O Srebrny Dzwon”
 date: 2020-07-09T12:00:00+01:00
 description: Termin naszych regat zbliża się coraz większymi krokami. To już 25.07.2020 spotykamy się po raz 41, żeby pościgać się troszkę na falach Bałtyku.
-bg: "/images/misc/regaty-promo-post2.png"
-bgthumb: "/images/misc/regaty-promo-post2-thumb.png"
+bg: "/images/misc/regaty-promo-post2.webp"
+bgthumb: "/images/misc/regaty-promo-post2-thumb.webp"
 draft: false
 ---
 
@@ -35,4 +35,4 @@ Termin naszych regat zbliża się coraz większymi krokami. To już 25.07.2020 s
 1. Zgłoszenia i wpisowe. Zgłoszenia będziemy przyjmować do godz. 9:00, 25.07.2020, jednakże namawiamy gorąco na wcześniejszą rejestrację poprzez [formularz zgłoszeniowy na naszej stronie](https://klubmorski.pl/formularz-regaty-xli-o-srebrny-dzwon/). Członkowie JKM “Joseph Conrad” oraz jachty stowarzyszone zwolnione są z opłat natomiast dla pozostałych wpisowe to symboliczne 50 zł od jachtu!
 1. Dla kibiców! Trasę poprowadzimy w możliwie atrakcyjny dla Was sposób. Zachęcamy do kibicowania zarówno w marinie jak i z molo i brzegu. Jeśli poczujecie że to coś czego spróbować chcielibyście, piszcie do nas! info@klubmorski.pl a my coś wymyślimy!
 
-{{< lightbox full="/images/misc/regatyplakat2020-2.jpg" thumbnail="/images/misc/regatyplakat2020-2-thumb.jpg" alt="">}}
+{{< lightbox full="/images/misc/regatyplakat2020-2.webp" thumbnail="/images/misc/regatyplakat2020-2-thumb.webp" alt="">}}

@@ -2,8 +2,8 @@
 title: "II Regaty o Błękitnego Dorsza – wyniki"
 date: 2022-07-09T12:00:00+01:00
 description: Fantastyczne II Regaty o Błękitnego Dorsza za nami! Wyniki, podziekowania i gratulacje.
-bg: "/images/dorsz2022/DSC04053.jpg"
-bgthumb: "/images/dorsz2022/DSC04053-thumb.jpg"
+bg: "/images/dorsz2022/DSC04053.webp"
+bgthumb: "/images/dorsz2022/DSC04053-thumb.webp"
 draft: false
 ---
 

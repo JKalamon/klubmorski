@@ -39,6 +39,15 @@
   }
 }
 
+.boat-card{
+  .image{
+    max-width: 350px;
+    @include media-breakpoint-down(lg) {
+      max-width: 100%;
+    }
+  }
+}
+
 .post-card { 
   &:hover{
     a.post-image img{

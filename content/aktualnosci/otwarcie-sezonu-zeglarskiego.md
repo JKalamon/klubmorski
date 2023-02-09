@@ -2,8 +2,8 @@
 title: Otwarcie sezonu żeglarskiego
 date: 2020-05-20T12:00:00+01:00
 description: 30.05.2020 pod patronatem Pani Prezydent Kołobrzegu Anny Mieczkowskiej otwieramy sezon żeglarski! Zapraszamy do udziału.
-bg: "/images/misc/otwarcie-sezonu-zeglarskiego-2020-fb.jpg"
-bgthumb: "/images/misc/otwarcie-sezonu-zeglarskiego-2020-fb-thumb.jpg"
+bg: "/images/misc/otwarcie-sezonu-zeglarskiego-2020-fb.webp"
+bgthumb: "/images/misc/otwarcie-sezonu-zeglarskiego-2020-fb-thumb.webp"
 draft: false
 ---
 
@@ -21,4 +21,4 @@ Namawiam wszystkich armatorów, również tych (jeszcze) niezrzeszonych do wzię
 
 Pokażmy się a i nas pokażą!
 
-{{< lightbox full="/images/misc/otwarcie-sezonu-zeglarskiego-2020.jpg" thumbnail="/images/misc/otwarcie-sezonu-zeglarskiego-2020-thumb.jpg" alt="">}}
+{{< lightbox full="/images/misc/otwarcie-sezonu-zeglarskiego-2020.webp" thumbnail="/images/misc/otwarcie-sezonu-zeglarskiego-2020-thumb.webp" alt="">}}
