@@ -60,17 +60,6 @@
     </div>
   </div>
 
-  <h2>Galerie</h2>
-  {{ $newest := where .Site.Pages "Type" "galerie" }} 
-  {{ $newest = where $newest "IsPage" true}} 
-  {{ $newest = where $newest "Permalink" "!=" $currentPage.Permalink}}
-
-  <div class="row">    
-    {{ range (first 2 $newest) }}
-    <div class="col-md-6 col-12">{{partial "post-card.html" .}}</div>
-    {{ end }}
-  </div>
-
   <h2>Nasi partnerzy</h2>
   <div class="siema">
     <div class="partner-item">

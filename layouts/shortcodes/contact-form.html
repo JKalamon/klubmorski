@@ -1,0 +1,100 @@
+<div class="row">
+  <div class="col-12 col-md-6">
+    <!-- modify this form HTML and place wherever you want your form -->
+    <form
+      id="contact-form"
+      action="http://wp.pl"
+      action123="https://formspree.io/f/xrgvppey"
+      method="POST"
+    >
+      <label class="form-label" for="name">Imię i nazwisko:</label>
+      <input type="text" name="name" id="name" class="form-control" />
+      <label class="form-label mt-3" for="email">Email:</label>
+      <input type="email" name="email" class="form-control" />
+      <label class="form-label mt-3">Wiadomość:</label>
+      <textarea
+        class="form-control"
+        type="text"
+        name="wiadomosc"
+        style="min-height: 300px"
+        placeholder="Tutaj wpisz swoją wiadomość..."
+      ></textarea>
+      <button id="my-form-button" class="btn btn-primary w-100 mt-3">
+        Wyślij
+      </button>
+      <p id="my-form-status"></p>
+    </form>
+    <!-- Place this script at the end of the body tag -->
+    <script>
+      var form = document.getElementById("contact-form");
+
+      async function handleSubmit(event) {
+        event.preventDefault();
+        var status = document.getElementById("my-form-status");
+        var data = new FormData(event.target);
+        fetch(event.target.action, {
+          method: form.method,
+          body: data,
+          headers: {
+            Accept: "application/json",
+          },
+        })
+          .then((response) => {
+            if (response.ok) {
+              status.classList.add("text-success");
+              status.innerHTML = "Twoja wiadomość została wysłana!";
+              form.reset();
+            } else {
+              response.json().then((data) => {
+                if (Object.hasOwn(data, "errors")) {
+                  status.innerHTML = data["errors"]
+                    .map((error) => error["message"])
+                    .join(", ");
+                } else {
+                  status.classList.add("text-danger");
+                  status.innerHTML =
+                    "Coś poszło nie tak, spróbuj ponownie później";
+                }
+              });
+            }
+          })
+          .catch((error) => {
+            status.classList.add("text-danger");
+            status.innerHTML = "Coś poszło nie tak, spróbuj ponownie później";
+          });
+      }
+
+      form.addEventListener("submit", handleSubmit);
+    </script>
+  </div>
+  <div class="col-12 col-md-6">
+    <iframe
+      width="100%"
+      height="460"
+      frameborder="0"
+      scrolling="no"
+      marginheight="0"
+      marginwidth="0"
+      src="https://maps.google.com/maps?q=Jacht%20Klub%20Morski%20%22Joseph%20Conrad%22&amp;t=m&amp;z=13&amp;output=embed&amp;iwloc=near"
+      title="%3$s"
+      aria-label="%3$s"
+    ></iframe>
+
+    <div class="row">
+      <div class="col-12 col-md-6">
+        Jacht Klub Morski “Joseph Conrad”<br />
+        ul. Warzelnicza 3<br />
+        78-100 Kołobrzeg<br />
+        NIP: 671-15-87-793
+      </div>
+      <div class="col-12 col-md-6">
+        <a href="mailto:info@klubmorski.pl">info@klubmorski.pl</a><br />
+        <a href="tel:730491405">Tel: 730 491 405</a>
+      </div>
+      <div class="col-12 mt-3">        
+        Numer konta: 27 1940 1076 3200 8533 0000 0000<br/>
+        Credit Agricole Bank Polska SA
+      </div>
+    </div>
+  </div>
+</div>
