@@ -9,7 +9,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "optimize-images": "node optimize-images.js"
+    "optimize-images": "node optimize-images.js",
+    "delete-images": "node delete-images.js"
   },
   "repository": {
     "type": "git",

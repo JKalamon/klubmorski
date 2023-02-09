@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://klubmorski.pl/sitemap_index.xml
