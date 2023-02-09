@@ -1,6 +1,7 @@
 ---
 title: Jeszcze kilka słów o sobotnich regatach
 date: 2020-07-22T12:00:00+01:00
+description: Zegar tyka głośno i szybko – już za 2 dni spotykamy się na XLI Regatach “O Srebrny Dzwon”! Garść nowych informacji.
 bg: "/images/misc/zegar-fb.jpg"
 bgthumb: "/images/misc/zegar-fb-thumb.jpg"
 draft: false

@@ -1,6 +1,7 @@
 ---
 title: "XLII Regaty o Srebrny Dzwon – informacje organizacyjne"
 date: 2021-07-26T12:00:00+01:00
+description: Już tylko parę dni nas dzieli od corocznego żeglarskiego święta w Kołobrzegu – Regat o Srebrny Dzwon. 42 edycja i w dodatku obchodzimy 65-lecie powstania klubu!
 bg: "/images/dzwon2020/DSC04660.jpg"
 bgthumb: "/images/dzwon2020/DSC04660-thumb.jpg"
 draft: false

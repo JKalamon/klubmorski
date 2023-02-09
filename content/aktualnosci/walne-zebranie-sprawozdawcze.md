@@ -1,6 +1,7 @@
 ---
 title: Walne zebranie sprawozdawcze
 date: 2019-07-02T12:00:00+01:00
+description: W imieniu Komandora Klubu oraz Zarządu JKM Joseph Conrad serdecznie zapraszamy wszystkich członków i sympatyków klubu na walne zebranie sprawozdawcze. Data 9.03.2019.
 bg: "/images/misc/DSC3502-900x300-1.jpg"
 bgthumb: "/images/misc/DSC3502-900x300-1-thumb.jpg"
 draft: false

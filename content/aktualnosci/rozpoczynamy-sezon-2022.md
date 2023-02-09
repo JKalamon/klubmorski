@@ -1,6 +1,7 @@
 ---
 title: "Rozpoczynamy sezon 2022"
 date: 2022-05-08T12:00:00+01:00
+description: Rozpoczęcie sezonu 2022. Ahoj członkowie JKM “Joseph Conrad”, armatorzy i sympatycy! Troszkę głucho było na tej stronie, co nie znaczy, że nic się nie działo!
 bg: "/images/misc/sezon2022.jpg"
 bgthumb: "/images/misc/sezon2022-thumb.jpg"
 draft: false

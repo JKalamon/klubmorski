@@ -1,3 +1,8 @@
+---
+title: Patron klubu
+description: Joseph Conrad-Korzeniowski niewątpliwie był w pełni nie tylko marynarzem, ale i żeglarzem, i to takim, który w młodości opłynął Cape Horn. 
+---
+
 # Patron klubu
 
 ## Conrad, Horn i żagle

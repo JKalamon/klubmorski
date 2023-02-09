@@ -1,6 +1,7 @@
 ---
 title: "XLII Regaty o Srebrny Dzwon – wyniki"
 date: 2021-08-03T12:00:00+01:00
+description: XLII Regaty o Srebrny Dzwon 2021 zakończone! Nerwów było niemało. Na starcie stanęło 17 łodzi. Wyniki, podziękowania i gratulacje.
 bg: "/images/dzwon2021/DSC05987.jpg"
 bgthumb: "/images/dzwon2021/DSC05987-thumb.jpg"
 draft: false

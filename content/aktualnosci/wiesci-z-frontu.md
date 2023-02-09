@@ -1,6 +1,7 @@
 ---
 title: Wieści z frontu
 date: 2020-04-21T12:00:00+01:00
+description: Wieści z frontu w tych trudnych czasach. Co aktualnie możemy? Popracować przy łódkach, zwodować nasze okręty.
 bg: "/images/misc/Srebrny-Dzwon-2018-4.jpg"
 bgthumb: "/images/misc/Srebrny-Dzwon-2018-4-thumb.jpg"
 draft: false

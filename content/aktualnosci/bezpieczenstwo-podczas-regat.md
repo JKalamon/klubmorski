@@ -1,6 +1,7 @@
 ---
 title: Bezpieczeństwo podczas regat
 date: 2020-07-24T12:00:00+01:00
+description: Już jutro rozpoczynamy regaty i mamy dla Was kolejną ważną wiadomość. Nad naszym bezpieczeństwem będą czuwać ratownicy z Akademia Ratownictwa Wojciech Grzesiak.
 bg: "/images/misc/bezpieczenstwo.jpg"
 bgthumb: "/images/misc/bezpieczenstwo-thumb.jpg"
 draft: false

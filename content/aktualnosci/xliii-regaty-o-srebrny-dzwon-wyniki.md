@@ -1,6 +1,7 @@
 ---
 title: "XLIII Regaty o Srebrny Dzwon - wyniki"
 date: 2022-08-05T12:00:00+01:00
+description: XLIII Regaty o Srebrny Dzwon za nami! Dziękuję osobiście Zarządowi JKM “Joseph Conrad” za zaangażowanie i kawał dobrej roboty włożonej w organizacje imprezy! Wyniki!
 bg: "/images/dzwon2022/DSC05083.jpg"
 bgthumb: "/images/dzwon2022/DSC05083-thumb.jpg"
 draft: false

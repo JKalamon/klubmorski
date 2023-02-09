@@ -1,6 +1,7 @@
 ---
 title: Wyniki XLI Regat “O Srebrny Dzwon”
 date: 2020-07-28T12:00:00+01:00
+description: I już po regatach! Mimo ciężkich i niepewnych czasów udało się wszystko posklejać do kupy i wyszła w naszym mniemaniu fajna impreza. Dziękujemy Wam!
 bg: "/images/misc/DSC04451.jpg"
 bgthumb: "/images/misc/DSC04451-thumb.jpg"
 draft: false

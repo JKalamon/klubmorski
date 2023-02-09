@@ -1,3 +1,8 @@
+---
+title: Historia klubu
+description: Nazwa “Joseph Conrad” pierwszy raz pojawiła się 23.10.1956 roku, kiedy to grupa zapalonych kołobrzeskich żeglarzy po przejęciu jachtu “Orkan II” utworzyła klub żeglarski.
+---
+
 # Historia klubu
 ## Utworzenie klubu
 Nazwa “Joseph Conrad” pierwszy raz pojawiła się 23 października 1956 roku, kiedy to grupa zapalonych kołobrzeskich żeglarzy po przejęciu jachtu “Orkan II” utworzyła klub żeglarski o tej nazwie. Było to urzeczywistnienie ich marzeń o wyprawach morskich. Klub działał pod egidą kolejno Ligi Przyjaciół Żołnierza, Ligi Obrony Kraju i Ligi Morskiej korzystając z ich bogatego doświadczenia.

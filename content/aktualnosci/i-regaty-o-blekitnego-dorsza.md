@@ -1,11 +1,12 @@
 ---
 title: "I Regaty o Błękitnego Dorsza"
 date: 2021-06-08T12:00:00+01:00
+description: Sytuacja ‘covidova” znacząco się poprawia to i my ostro przystępujemy do działania! Już 26.06.2021 spotykamy się na wodzie w I Regatach o Błękitnego Dorsza.
 bg: "/images/dzwon2020/197454890_213086230641848_282122348892803904_n.png"
 bgthumb: "/images/dzwon2020/197454890_213086230641848_282122348892803904_n-thumb.png"
 draft: false
 ---
-
+c
 ## Ahoj!
 Sytuacja ‘covidova” znacząco się poprawia to i my ostro przystępujemy do działania!
 

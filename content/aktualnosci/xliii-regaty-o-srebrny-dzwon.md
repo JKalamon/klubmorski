@@ -1,6 +1,7 @@
 ---
 title: "XLIII Regaty o Srebrny Dzwon"
 date: 2022-07-22T12:00:00+01:00
+description: Już za tydzień – 30.07.2022 odbędzie sie nasza sztandarowa impreza – XLIII Regaty o Srebrny Dzwon! Atrakcje i informacje.
 bg: "/images/dorsz2022/DSC04220.jpg"
 bgthumb: "/images/dorsz2022/DSC04220-thumb.jpg"
 draft: false

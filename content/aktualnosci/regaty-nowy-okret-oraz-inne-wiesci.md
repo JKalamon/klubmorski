@@ -1,6 +1,7 @@
 ---
 title: "Regaty, nowy okręt oraz inne wieści"
 date: 2021-05-23T12:00:00+01:00
+description: Udało nam się pozyskać całkiem przyzwoity okręt – jeden z armatorów oddał nam w trzyletnie użytkowanie 27 stopowy jacht Dufour 27 Safari o wdzięcznej nazwie – Beau4.
 bg: "/images/misc/cover_news.jpg"
 bgthumb: "/images/misc/cover_news-thumb.jpg"
 draft: false

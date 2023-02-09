@@ -1,6 +1,7 @@
 ---
 title: "XLIII Regaty O Srebrny Dzwon - wyniki"
 date: 2022-08-05T12:00:00+01:00
+description: Statut JKM Joseph Conrad. Nazwa, siedziba, teren i zasady działania Klubu.
 draft: false
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: XLI Regaty “O Srebrny Dzwon”
 date: 2020-07-09T12:00:00+01:00
+description: Termin naszych regat zbliża się coraz większymi krokami. To już 25.07.2020 spotykamy się po raz 41, żeby pościgać się troszkę na falach Bałtyku.
 bg: "/images/misc/regaty-promo-post2.png"
 bgthumb: "/images/misc/regaty-promo-post2-thumb.png"
 draft: false
