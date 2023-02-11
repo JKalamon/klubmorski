@@ -19,13 +19,22 @@
         placeholder="Tutaj wpisz swoją wiadomość..."
       ></textarea>
 
-      <div class="g-recaptcha" data-sitekey="6LeWl3AkAAAAAPsJsIBeGJ26jxw2niE6qx7WMINK"></div>
+      <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
 
       <button id="my-form-button" class="btn btn-primary w-100 mt-3">
         Wyślij
       </button>
       <p id="my-form-status"></p>
     </form>
+    <script src="https://www.google.com/recaptcha/api.js?render=6LeWl3AkAAAAAPsJsIBeGJ26jxw2niE6qx7WMINK"></script>
+    <script>
+      grecaptcha.ready(function () {
+          grecaptcha.execute('6LeWl3AkAAAAAPsJsIBeGJ26jxw2niE6qx7WMINK', {action: 'submit'}).then(function (token) {
+              console.info("got token: " + token);
+              document.getElementById('g-recaptcha-response').value = token;
+          });
+      });
+  </script>
     <script>
       var form = document.getElementById("contact-form");
 
