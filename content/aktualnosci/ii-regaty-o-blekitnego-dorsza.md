@@ -13,8 +13,6 @@ Dzięki dotacji z [KARR S.A.](https://karrsa.eu/), wielkiemu wsparciu [Zarządu 
 
 ## Pogoda
 Pogoda zapowiada się żeglarsko – i wiatr i słońce! Oby się sprawdziła!
---image
-*windy.com*
 
 ## Plan imprezy
 - 8:00 – 8:30 – zapisy do regat – symboliczne 50 zł od jachtu.

@@ -12,8 +12,6 @@ Fantastyczne II Regaty o Błękitnego Dorsza za nami!
 
 Pogoda jak na zamówienie, a widok białych żagli na redzie kołobrzeskiego portu cieszył zarówno uczestników jak i obserwatorów z plaży. Impreza miała stosowną oprawę a nagrody były na prawdę atrakcyjne.
 
---image here
-
 ## Wyniki
 Na starcie stanęło 10 łodzi, które zostały podzielone na 3 sprawiedliwe klasy. Wyniki przedstawiają się następująco:
 
@@ -21,10 +19,12 @@ Na starcie stanęło 10 łodzi, które zostały podzielone na 3 sprawiedliwe kla
 1. TRI4FUN – sternik Thomas Maciejowski
 1. Difur – sternik Agnieszka Kramarczyk
 1. Błękitna Pasja – sternik Eugeniusz Hladun
+
 ### Jachty do 9 metrów długości
 1. Hruby – sternik Robert Rayski
 1. Beau4 – sternik Wojciech Kalamon
 1. Fayna – sternik Dorota Błażewicz
+
 ### Jachty powyżej 9 metrów długości
 1. Marinuss – sternik Marek Piętka
 1. Defin – sternik Michał Schelder
@@ -46,5 +46,4 @@ Zapiszcie w kalendarzu datę 30 lipca – XLIII Regaty o Srebrny Dzwon
 
 Zapraszamy również do naszej [**galerii zdjęć**](/galerie/blekitny-dorsz-2022/) gdzie możecie zobaczyć obszerną relację fotograficzną oraz film z tej imprezy!
 
---image here 
 Stukrotne dzięki i miłego przeglądania fotek 🙂
