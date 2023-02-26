@@ -1,0 +1,9 @@
+{{/* Usage: */}}
+{{/*  - in a markdown file: {{< youtube "VIDEO_ID" >}} */}}
+{{/*  - in a HTML file: {{< youtube "VIDEO_ID" >}} */}}
+
+{{ $videoID := .Get 0 }}
+
+
+<iframe class="video" src="https://www.youtube.com/embed/{{ $videoID }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+

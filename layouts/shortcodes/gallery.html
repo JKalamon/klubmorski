@@ -1,0 +1,49 @@
+{{ partial "libsass" "scss/gallery.scss" }}
+
+{{ $dir := string (.Get "gallery_dir") }}
+
+<div class="image-gallery">
+  {{ range (readDir (print "/static/images/galerie/" $dir)) }}
+    {{- $image := (printf "/images/galerie/%s/%s" $dir .Name) -}}
+    {{- $isThumb := (findRE "^.*-thumb.webp$" .Name) -}}
+    {{ if $isThumb }} 
+      {{- $largeImage := (replaceRE "-thumb.webp$" ".webp" $image) -}}
+      {{- $imageConfig := (imageConfig (printf "static/%s" $largeImage)) -}}
+      {{- $imageConfig2 := (imageConfig (printf "static/%s" $image)) -}}
+      {{- $width := $imageConfig.Width -}}
+      {{- $height := $imageConfig.Height -}}
+      {{- $widthSmall := $imageConfig2.Width -}}
+      {{- $heightSmall := $imageConfig2.Height -}}
+      <a href="{{ $largeImage }}" 
+        data-pswp-width="{{ $width }}" 
+        data-pswp-height="{{ $height }}">
+        <img src="{{ $image  }}" width="{{ $widthSmall}}" height="{{ $heightSmall }}">
+      </a>
+    {{ end }}
+  {{ end }}
+</div>
+
+
+<script type="module">
+  import PhotoSwipeLightbox from '/js/photoswipe-lightbox.esm.min.js';
+  const lightbox = new PhotoSwipeLightbox({
+    gallery: '.image-gallery',
+    children: 'a',
+    pswpModule: () => import('/js/photoswipe.esm.min.js')
+  });
+  lightbox.init();
+  </script>
+
+<script src="/js/magic-grid.min.js"></script>
+<!-- <script src="./js/modify-items.js"></script> -->
+<script>
+    const magicGrid = new MagicGrid({
+      container: '.image-gallery',
+      animate: true,
+      gutter: 30,
+      static: true,
+      useMin: true
+    });
+
+    magicGrid.listen();
+</script>

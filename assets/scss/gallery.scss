@@ -1,0 +1,38 @@
+@import 'photoswipe/src/photoswipe';
+
+@import "bootstrap/scss/functions";
+
+// 2. Include any default variable overrides here
+
+// 3. Include remainder of required Bootstrap stylesheets
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/maps";
+
+
+.image-gallery > a {
+  display: block;
+  width: 400px;
+}
+
+.image-gallery a img {
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border-radius: 5px;
+  transition: 0.3s all ease-in-out;
+
+  &:hover{
+    opacity: 0.9;
+  }
+
+
+}
+
+@include media-breakpoint-down(lg) {
+  .image-gallery > a {
+    width: 100%
+  }
+  
+}

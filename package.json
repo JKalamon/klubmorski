@@ -6,12 +6,18 @@
   "dependencies": {
     "bootstrap": "^5.2.3",
     "fs-extra": "^11.1.0",
+    "photoswipe": "^5.3.6",
     "sharp": "^0.31.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "babel-loader": "^9.1.2",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  },
   "scripts": {
     "optimize-images": "node optimize-images.js",
-    "delete-images": "node delete-images.js"
+    "delete-images": "node delete-images.js",
+    "js": "node bundle.js"
   },
   "repository": {
     "type": "git",

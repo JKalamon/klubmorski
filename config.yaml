@@ -19,6 +19,10 @@ menu:
     name: Patron klubu
     url: /patron-klubu/
     weight: 4
+  - identifier: galerie
+    name: Galerie
+    url: /galerie/
+    weight: 5
   - identifier: statut
     name: Statut
     url: /statut/
