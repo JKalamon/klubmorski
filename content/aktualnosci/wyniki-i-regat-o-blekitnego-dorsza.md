@@ -34,4 +34,4 @@ Dziękujemy raz jeszcze za świetną zabawę i zapraszamy na następne imprezy:
 XLII Regaty o Srebrny Dzwon – 31.07.2021
 2 etap Regat o 3 Perły – 04-05.09.2021 – Darłowo-Ustka-Darłowo, których jesteśmy skromnym współorganizatorem.
 
-[Tutaj możecie znaleźć krótką relację z tych regat.](/galerie/dorsz2021)
+[Tutaj możecie znaleźć krótką relację z tych regat.](/galerie/dorsz-2021)

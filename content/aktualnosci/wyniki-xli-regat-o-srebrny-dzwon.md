@@ -64,6 +64,6 @@ Regaty rozegrano w trzech klasach i według zasad punktacji [ogłoszonej wcześn
 {{< lightbox full="/images/misc/DSC04902-1024x576.webp" thumbnail="/images/misc/DSC04902-1024x576-thumb.webp" alt="">}}
 
 
-**Zapraszamy również do obejrzenia** [naszej obszernej fotorelacji z regat](https://klubmorski.pl/galerie/srebrny-dzwon-2020/).
+**Zapraszamy również do obejrzenia** [naszej obszernej fotorelacji z regat](/galerie/srebrny-dzwon-2020/).
 
 Do zobaczenia na “XLII Regatach o Srebrny Dzwon 2021” a na wodzie znacznie wcześniej! Ahoj!

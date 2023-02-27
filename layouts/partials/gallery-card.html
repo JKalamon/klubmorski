@@ -1,0 +1,8 @@
+<div class="post-card">
+  <a href="{{ .Permalink }}" class="post-image">
+    <img src="{{.Params.bgthumb}}" srcset="{{.Params.bgthumb}} 700w, {{.Params.bg}} 1500w" alt="{{.Title}}"/>
+  </a>
+  <div class="summary summary-gallery">
+    <a href="{{ .Permalink }}" class="title">{{ .Title }}</a>
+  </div>
+</div>

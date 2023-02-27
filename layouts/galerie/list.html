@@ -1,12 +1,12 @@
 
 {{ define "main" }}
 <div class="container single-page">
-  <h1>Aktualności</h1>
+  <h1>Galerie</h1>
   <div class="row">
   {{ $pages := .Data.Pages }}
   {{ range $pages }}
   <div class="col-md-6 col-12">
-    {{partial "post-card.html" .}}
+    {{partial "gallery-card.html" .}}
   </div>
   {{ end }}
 </div>
