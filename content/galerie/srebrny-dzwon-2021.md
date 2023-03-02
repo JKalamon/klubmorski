@@ -24,4 +24,4 @@ P.S. *Z tej galerii możecie ściągnąć zdjęcia w wysokiej roździelczości (
 {{< youtube "6AaqtZimL6U" >}}
 
 
-{{< gallery gallery_dir="srebrny-dzwon-2021" enable_download=true >}}
+{{< gallery gallery_dir="srebrny-dzwon-2021" enable_download="true" >}}

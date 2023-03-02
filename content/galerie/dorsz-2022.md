@@ -18,4 +18,4 @@ P.S. *Z tej galerii możecie ściągnąć zdjęcia w wysokiej roździelczości (
 
 {{< youtube "9uFZ6e2_SBU" >}}
 
-{{< gallery gallery_dir="dorsz-2022" >}}
+{{< gallery gallery_dir="dorsz-2022" enable_download="true" >}}

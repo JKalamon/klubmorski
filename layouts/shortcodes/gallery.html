@@ -40,7 +40,7 @@
     pswpModule: () => import('/js/photoswipe.esm.min.js')
   });
 
-  {{ if eq $download true }}
+  {{ if eq $download "true" }}
 
   lightbox.on('uiRegister', function() {
     lightbox.pswp.ui.registerElement({

@@ -24,4 +24,4 @@ P.S. *Z tej galerii możecie ściągnąć zdjęcia w wysokiej roździelczości (
 {{< youtube "_1pZzrW2Cm0" >}}
 
 
-{{< gallery gallery_dir="srebrny-dzwon-2022" enable_download=true >}}
+{{< gallery gallery_dir="srebrny-dzwon-2022" enable_download="true" >}}
