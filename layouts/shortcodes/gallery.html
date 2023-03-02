@@ -10,7 +10,8 @@
     {{- $isThumb := (findRE "^.*-thumb.webp$" .Name) -}}
     {{ if $isThumb }} 
       {{- $largeImage := (replaceRE "-thumb.webp$" ".webp" $image) -}}
-      {{- $downloadImage := (replaceRE "-thumb.webp$" ".jpg" $image) -}}
+      {{- $downloadImage := (printf "https://klubmorski.blob.core.windows.net/hires/%s-%s.jpg" $dir .Name) -}}
+      {{- $downloadImage = (replaceRE "-thumb.webp" "" $downloadImage) -}}
       {{- $imageConfig := (imageConfig (printf "static/%s" $largeImage)) -}}
       {{- $imageConfig2 := (imageConfig (printf "static/%s" $image)) -}}
       {{- $width := $imageConfig.Width -}}
