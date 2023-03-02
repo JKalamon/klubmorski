@@ -61,6 +61,6 @@ To jeszcze nie ostatnie atrakcje jakie JKM ” Joseph Conrad” szykuje w tym se
 
 I nie zapomnijcie o Regatach Trzy Perły – pierwszy weekend września: Darłowo-Ustka-Darłowo. Troszkę logistyki do ogarnięcia ale myślę, że tak fajna inicjatywa warta jest naszej obecności! Szczegóły podawać będą koledzy z Jacht Klubu Królewskiego Miasta Darłowo!
 
-[Zapraszamy do naszej galerii gdzie możecie zobaczyć obszerną relację fotograficzną oraz film z tej imprezy!](https://klubmorski.pl/galerie/srebrny-dzwon-2021/)
+[Zapraszamy do naszej galerii gdzie możecie zobaczyć obszerną relację fotograficzną oraz film z tej imprezy!](/galerie/srebrny-dzwon-2021/)
 
 Stukrotne dzięki i miłego przeglądania fotek 🙂

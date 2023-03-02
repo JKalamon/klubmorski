@@ -1,7 +1,7 @@
 ---
 title: "Srebrny Dzwon 2020"
 description: "Relacja fotograficzna z naszych regat o Srebrny Dzwon 2020"
-date: 2021-07-25T12:00:00+01:00
+date: 2020-07-25T12:00:00+01:00
 bg: "/images/galerie/srebrny-dzwon-2020/DSC04626.webp"
 bgthumb: "/images/galerie/srebrny-dzwon-2020/DSC04626-thumb.webp"
 draft: false

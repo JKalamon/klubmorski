@@ -61,6 +61,22 @@
     </div>
   </div>
 
+  <h2>Galerie</h2>
+  {{ $currentPage := . }} 
+  {{ $newest := where .Site.Pages "Type" "galerie" }} 
+  {{ $newest = where $newest "IsPage" true}} 
+  {{ $newest = where $newest "Permalink" "!=" $currentPage.Permalink}}
+
+  <div class="row">
+    {{ range (first 2 $newest) }}
+    <div class="col-md-6 col-12">{{partial "gallery-card.html" .}}</div>
+    {{ end }}
+  </div>
+
+  <div class="text-end">
+    <a class="btn btn-primary" href="/galerie">Zobacz pozostałe galerie</a>
+  </div>
+
   <h2>Nasi partnerzy</h2>
   <div class="siema">
     <div class="partner-item">

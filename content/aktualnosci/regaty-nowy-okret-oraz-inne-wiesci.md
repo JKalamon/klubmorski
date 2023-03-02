@@ -23,9 +23,9 @@ Opiekunem jachtu zostanie pewnie… komandor, a Difur przejdzie w czułe dłonie
 
 5 czerwca 2021 Urząd Miasta organizuje oficjalne Otwarcie Sezonu Żeglarskiego w Kołobrzegu. Nie może nas zabraknąć i wszystko co utrzymuje się na wodzie ma się na niej znaleźć! Wypłynięcie jednostek planowane jest na godzinę 11:30. Im więcej nas tym lepiej. Namawiam wszystkich członków i armatorów do zaklepania sobie tej (słonecznej mam nadzieję) soboty!
 
-## I Regaty o Srebrnego Dorsza
+## I Regaty o Błękitnego Dorsza
 
-„I Regaty o Srebrnego Dorsza 2021” odbędą się w sobotę **26.06.2021**. Jak zawsze zapewniamy wzorową organizację, obsługę sędziowsko-ratowniczą, profesjonalną foto/video relację, drobne nagrody i coś na żołądek też będzie. Planujemy 3-4 wyścigi na redzie w okolicach molo. Dla jednostek spoza Kołobrzegu darmowy postój w porcie też zapewnimy!
+„I Regaty o Błękitnego Dorsza 2021” odbędą się w sobotę **26.06.2021**. Jak zawsze zapewniamy wzorową organizację, obsługę sędziowsko-ratowniczą, profesjonalną foto/video relację, drobne nagrody i coś na żołądek też będzie. Planujemy 3-4 wyścigi na redzie w okolicach molo. Dla jednostek spoza Kołobrzegu darmowy postój w porcie też zapewnimy!
 
 Chęci zgłaszać na adres [info@klubmorski.pl](mailto:info@klubmorski.pl) lub przez [formularz kontaktowy](/kontakt).
 

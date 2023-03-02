@@ -1,5 +1,5 @@
 ---
-title: "II Regaty o Srebrnego Dorsza"
+title: "II Regaty o Błękitnego Dorsza"
 date: 2022-06-28T12:00:00+01:00
 description: To już za chwilę - w najbliższą sobotę 2.07.2022 spotykamy się na II Regatach o Błękitnego Dorsza! Kilka informacji organizacyjnych.
 bg: "/images/dzwon2021/DSC05962.webp"

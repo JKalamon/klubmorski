@@ -1,7 +1,7 @@
 ---
 title: "Regaty o Błękitnego Dorsza – Zapowiedź"
 date: 2022-06-13T12:00:00+01:00
-description: Zaproszenie! Jacht Klub Morski “Joseph Conrad” ma wielką przyjemność i zaszczyt zaprosić na II Regaty o Srebrnego Dorsza, które odbędą się 2.07.2020.
+description: Zaproszenie! Jacht Klub Morski “Joseph Conrad” ma wielką przyjemność i zaszczyt zaprosić na II Regaty o Błękitnego Dorsza, które odbędą się 2.07.2020.
 bg: "/images/misc/DORSZ2022_preview.webp"
 bgthumb: "/images/misc/DORSZ2022_preview-thumb.webp"
 draft: false
@@ -9,7 +9,7 @@ draft: false
 
 Witajcie!
 
-Jacht Klub Morski “Joseph Conrad” ma wielką przyjemność i zaszczyt zaprosić na **II Regaty o Srebrnego Dorsza**.
+Jacht Klub Morski “Joseph Conrad” ma wielką przyjemność i zaszczyt zaprosić na **II Regaty o Błękitnego Dorsza**.
 
 Zeszłoroczny debiut cieszył się wielkim zainteresowaniem – ponad 25 łodzi na wodzie – postanowiliśmy więc nowa tradycję kontynuować. Imprezę finansowo wsparła [Koszalińska Agencja Rozwoju Regionalnego S.A.](https://karrsa.eu/), za co pięknie dziękujemy!
 

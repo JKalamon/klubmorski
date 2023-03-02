@@ -50,10 +50,11 @@ readDirectory("static/images").then(listOfFiles => {
     const outputFileThumb = `${inputFile.split(".")[0]}-thumb.webp`
   
     sharp(inputFile)
+      .resize({ width: 2000, height: 2000, fit: "inside" })
       .webp({ quality: 80 }) // set WebP quality to 80
       .toFile(outputFile)
       .then((info) => {
-        console.log(`Image ${inputFile} was optimized`);
+        console.log(`Image ${inputFile} was optimized and resized to 2000`);
       })
       .catch((err) => {
         console.log(`An error occured while processing ${inputFile}: ${err}`);
