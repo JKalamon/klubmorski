@@ -1,4 +1,14 @@
 {{ define "main" }}
+
+{{ if eq .Params.noPhoto true }}
+<div class="container mb-5">
+  <h1>{{ .Title}}</h1>
+  <div class="date">
+    <i aria-hidden="true" class="kmi kmi-calendar-outline"></i>
+    {{.Date.Format "02.01.2006"}}
+  </div>
+</div>
+{{ else }}
 <div class="post-header" style="background-image: url({{ .Params.bg }});">
   <h1>{{ .Title}}</h1>
   <div class="date">
@@ -18,6 +28,8 @@
     </svg>
   </div>
 </div>
+{{ end }}
+
 <div class="container single-page">
   <div class="row">
     <div class="col-12 col-lg-8">
