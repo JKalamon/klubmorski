@@ -16,7 +16,7 @@ Szanowni Państwo,
 
 Z wielkim żalem i smutkiem zawiadamiamy, że nasz **kpt.ż.w. Krzysztof Chodakowski**, odszedł na wieczną wachtę.
 
-W sobotę, **11 marca 2023 roku**, o godzinie **12:00** na Cmentarzu Komunalnym w Kołobrzegu odbędzie się uroczystość pogrzebowa, podczas której pożegnamy niezapomnianego żeglarza, przyjaciela i człowieka, który na zawsze pozostanie w naszej pamięci.
+W sobotę, **11 marca 2023 roku**, o godzinie **12:00** na Cmentarzu Komunalnym w Kołobrzegu odbędzie się ceremonia pogrzebowa, podczas której pożegnamy niezapomnianego żeglarza, przyjaciela i człowieka, który na zawsze pozostanie w naszej pamięci.
 
 Zapraszamy wszystkich, którzy mieli okazję poznać Kapitana oraz tych, którzy zechcą oddać mu hołd, do udziału w uroczystości.
 
