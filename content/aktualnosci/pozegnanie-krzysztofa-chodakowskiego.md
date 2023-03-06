@@ -1,7 +1,7 @@
 ---
 title: "Pożegnanie Krzysztofa Chodakowskiego"
 date: 2023-03-06T12:00:00+01:00
-description: Podsumowanie roku. Możliwość umorzenia składek członkowskich za rok 2020. Dotacja KARR S.A. na I Regaty o Błękitnego Dorsza. Pełnomorski rejs szkoleniowy.
+description: Z wielkim żalem i smutkiem zawiadamiamy, że nasz Kapitan Krzysztof Chodakowski, odszedł na wieczną wachtę.
 bg: "/images/krzysztof-chodakowski-fb.webp"
 bgthumb: "/images/misc/krzysztof-chodakowski-fb-thumb.webp"
 noPhoto: true
