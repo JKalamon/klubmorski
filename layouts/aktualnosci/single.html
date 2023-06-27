@@ -39,6 +39,7 @@
       {{ $currentPage := . }}
       {{ $newest := where .Site.Pages "Type" "aktualnosci" }}
       {{ $newest = where $newest "IsPage" true}}
+      {{ $newest = where $newest "Params.soft_hidden" "!=" true}} 
       {{ $newest = where $newest "Permalink" "!=" $currentPage.Permalink}}
       
       {{ range (first 2 $newest) }}

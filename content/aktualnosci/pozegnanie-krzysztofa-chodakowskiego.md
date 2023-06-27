@@ -6,6 +6,7 @@ bg: "/images/krzysztof-chodakowski-fb.webp"
 bgthumb: "/images/misc/krzysztof-chodakowski-fb-thumb.webp"
 noPhoto: true
 draft: false
+soft_hidden: true
 ---
 
 {{< lightbox full="/images/krzysztof-chodakowski.webp" thumbnail="/images/krzysztof-chodakowski-thumb.webp" alt="Kapitan Krzysztof Chodakowski">}}
