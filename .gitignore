@@ -1,6 +1,7 @@
 node_modules
 public
 resources
-#static/images/galerie/**/*.jpg
+static/images/galerie/**/*.jpg
+static/images/misc/*.jpg
 connection_string.txt
 uploaded-files.json

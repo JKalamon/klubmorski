@@ -1,0 +1,246 @@
+<form id="regatta-form" action="https://formspree.io/f/xleyrbvb" method="POST">
+  <div class="row">
+    <div class="col-12 mt-3">
+      <label class="form-label" for="name-surname"
+        >Imię i nazwisko sternika</label
+      >
+      <input
+        type="text"
+        name="name-surname"
+        id="name-surname"
+        class="form-control"
+        required
+      />
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12 col-lg-6 mt-3">
+      <label class="form-label" for="boat-name">Nazwa łodzi</label>
+      <input
+        type="text"
+        name="boat-name"
+        id="boat-name"
+        class="form-control"
+        required
+      />
+    </div>
+
+    <div class="col-12 col-lg-6 mt-3">
+      <label class="form-label" for="boat-length">Długość łodzi</label>
+      <input
+        type="text"
+        name="boat-length"
+        id="boat-length"
+        class="form-control"
+        required
+      />
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12 col-lg-6 mt-3">
+      <label class="form-label" for="crew-quantity">Ilość załogi</label>
+      <select class="form-select" name="crew-quantity">
+        <option>1</option>
+        <option>2</option>
+        <option selected>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+        <option>7</option>
+        <option>8</option>
+        <option>9</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="row mt-3">
+    <hr/>
+    <div class="col-12" id="shirt-container">
+      <div id="shirt-count" class="mb-3">
+        <label class="form-label" for="shirt-count"
+          >Ilość pamiątkowych
+          <a href="/images/misc/koszulka.webp" class="cocobox d-inline"
+            >koszulek</a
+          >
+          z regat (dodatkowy koszt: 80zł)</label
+        >
+        <select class="form-select" name="shirt-count">
+          <option selected>0</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+          <option>9</option>
+        </select>
+      </div>
+    </div>
+    <hr/>
+    
+    <div class="col-12 col-lg-6">
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          value=""
+          id="club-member"
+        />
+        <label class="form-check-label" for="club-member">
+          Jestem członkiem klubu JKM Joseph Conrad
+        </label>
+      </div>
+    </div>
+  </div>
+
+  <div class="row mt-4">
+    <div class="col-12">
+      <h5>Podsumowanie:</h5>
+      <p id="price-summary">Koszt uczestnictwa: 50 zł</p>
+    </div>
+  </div>
+
+  <div class="row mt-4">
+    <div class="col-12">
+      <input
+        type="hidden"
+        id="g-recaptcha-response"
+        name="g-recaptcha-response"
+      />
+      <button type="submit" class="btn btn-primary">Zarejestruj się</button>
+    </div>
+  </div>
+</form>
+
+<div class="d-none alert alert-success" id="success-message">
+  Formularz został wysłany poprawnie! Do zobaczenia na regatach.
+</div>
+<div class="d-none alert alert-danger" id="error-message">
+  Coś poszło nie tak, spróbuj ponownie później.
+</div>
+
+<script>
+  const priceSummary = document.getElementById("price-summary");
+
+  function updatePriceSummary() {
+    const shirtNumber = parseInt(document.forms["regatta-form"]["shirt-count"].value);
+    const clubMemberValue =
+      document.forms["regatta-form"]["club-member"].checked;
+    let price = 50;
+
+    if (shirtNumber) {
+      price += 80 * shirtNumber;
+    }
+
+    if (clubMemberValue) {
+      price -= 50;
+    }
+
+    priceSummary.textContent = `Koszt uczestnictwa: ${price} zł`;
+  }
+
+  function updateShirtDropdowns() {
+    const shirtsIds = [1, 2, 3, 4, 5, 6, 7, 8, 9].map( x => `shirt-size-${x}`);
+    const shirtNumber = parseInt(document.forms["regatta-form"]["shirt-count"].value);
+    const container = document.getElementById('shirt-container');
+    for (let i = 0; i < shirtsIds.length; i++) {
+      const element = document.getElementById(shirtsIds[i]);
+      if (i >= shirtNumber && element){
+        container.removeChild(element);
+      }
+      if(i < shirtNumber && !element){
+        var div = document.createElement('div');
+        div.id = shirtsIds[i];
+        div.classList.add('mb-3');
+        div.innerHTML = `<label class="form-label mb-0" for="${shirtsIds[i]}">Rozmiar koszulki #${i+1}</label>
+           <select class="form-select form-select-sm" name="${shirtsIds[i]}">
+             <option>S</option>
+             <option selected>M</option>
+             <option>L</option>
+             <option>XL</option>
+             <option>XXL</option>
+           </select>`;
+
+           container.appendChild(div);
+      }
+    }
+
+    //const shirtValue = document.forms["regatta-form"]["shirt-count"].value;
+    //priceSummary.textContent = `Koszt uczestnictwa: ${price} zł`;
+  }
+
+  updatePriceSummary();
+  document.forms["regatta-form"]["shirt-count"].addEventListener(
+    "change",
+    updatePriceSummary
+  );
+  document.forms["regatta-form"]["shirt-count"].addEventListener(
+    "change",
+    updateShirtDropdowns
+  );
+
+  document.forms["regatta-form"]["club-member"].addEventListener(
+    "change",
+    updatePriceSummary
+  );
+</script>
+
+<script src="https://www.google.com/recaptcha/api.js?render=6LeWl3AkAAAAAPsJsIBeGJ26jxw2niE6qx7WMINK"></script>
+<script>
+  grecaptcha.ready(function () {
+    grecaptcha
+      .execute("6LeWl3AkAAAAAPsJsIBeGJ26jxw2niE6qx7WMINK", { action: "submit" })
+      .then(function (token) {
+        document.getElementById("g-recaptcha-response").value = token;
+      });
+  });
+</script>
+<script>
+  var form = document.getElementById("regatta-form");
+
+  async function handleSubmit(event) {
+    const errDiv = document.getElementById("error-message");
+    const sccDiv = document.getElementById("success-message");
+    sccDiv.classList.add("d-none");
+    errDiv.classList.add("d-none");
+
+    event.preventDefault();
+    //var status = document.getElementById("my-form-status");
+    var data = new FormData(event.target);
+    fetch(event.target.action, {
+      method: form.method,
+      body: data,
+      headers: {
+        Accept: "application/json",
+      },
+    })
+      .then((response) => {
+        if (response.ok) {
+          sccDiv.classList.remove("d-none");
+          form.reset();
+          form.classList.add("d-none");
+        } else {
+          response.json().then((data) => {
+            errDiv.classList.remove("d-none");
+            if (Object.hasOwn(data, "errors")) {
+              errDiv.innerHTML = data["errors"]
+                .map((error) => error["message"])
+                .join(", ");
+            } else {
+              errDiv.innerHTML = "Coś poszło nie tak, spróbuj ponownie później";
+            }
+          });
+        }
+      })
+      .catch((error) => {
+        errDiv.classList.add("text-danger");
+        status.innerHTML = "Coś poszło nie tak, spróbuj ponownie później";
+      });
+  }
+
+  form.addEventListener("submit", handleSubmit);
+</script>

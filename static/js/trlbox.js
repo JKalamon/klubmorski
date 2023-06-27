@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
     boxes[i].addEventListener("click", function(e) {
       e.preventDefault();
       var img = new Image();
-      img.src = e.target.parentNode.href;
+      img.src = e.target.parentNode.href ?? e.target.href;
       layer.innerHTML = "";
       layer.appendChild(img);
       layer.style.display = "flex";

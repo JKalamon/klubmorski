@@ -1,10 +1,55 @@
 {{ define "main" }}
+<div class="position-relative overflow-hidden text-center bg-body-tertiary promo" style="background-image: url('/images/galerie/dorsz-2022/DSC04261.webp'); background-size: cover; background-position: 50%;">
+  <div class="col-md-6 p-lg-5 mx-auto my-5">
+    <h1 class="display-3 fw-bold">Regaty nadchodzą!</h1>
+    <h3 class="fw-normal mb-3 px-2">Nasza flagowa impreza - Regaty XLIV o Srebrny Dzwon zbliża się!<br/> Już <b>29.07.2023</b> rozpocznie się żeglarska rywalizacja! Przygotujcie swoje łodzie i dołączcie do nas!</h3>
+    <div class="counter d-flex">
+      <div id="days">
+        20 dni
+      </div>
+      <div id="hours">
+        15
+      </div>
+      <div class="separator">:</div>
+      <div id="minutes">
+        40
+      </div>
+      <div class="separator">:</div>
+      <div id="seconds">
+        23
+      </div>
+    </div>
+    <div class="d-flex justify-content-center ">
+      <div class="btn-group" role="group" aria-label="Basic outlined example">
+        <a href="/aktualnosci/xliv-regaty-o-srebrny-dzwon/" class="btn btn-outline-light">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle me-1" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+          </svg>
+          Więcej informacji</a>
+        <a href="/formularz-regaty" class="btn btn-outline-light">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2-circle me-1" viewBox="0 0 16 16">
+            <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z"/>
+            <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z"/>
+          </svg>
+          Zapisz się już dziś!</a>
+      </div>
+    </div>
+  </div>
+  <div class="product-device shadow-sm d-none d-md-block"></div>
+  <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+</div>
+
 <div class="container">
   <h1 class="d-none">Jacht Klub Morski Joseph Conrad, Klub Żeglarski w Kołobrzegu</h1>
+
+  
+
   <h2>Aktualności</h2>
   {{ $currentPage := . }} 
   {{ $newest := where .Site.Pages "Type" "aktualnosci" }} 
   {{ $newest = where $newest "IsPage" true}} 
+  {{ $newest = where $newest "Params.soft_hidden" "!=" true}} 
   {{ $newest = where $newest "Permalink" "!=" $currentPage.Permalink}}
 
   <div class="row">
@@ -121,7 +166,7 @@
   </script>
 
   <div class="mt-2 w-100">
-    <script type="text/javascript" src="https://www.windfinder.com/widget/forecast/js/kolobrzeg?unit_wave=m&unit_rain=mm&unit_temperature=c&unit_wind=kts&days=4&show_day=1"></script><noscript><a rel='nofollow' href='https://www.windfinder.com/forecast/kolobrzeg?utm_source=forecast&utm_medium=web&utm_campaign=homepageweather&utm_content=noscript-forecast'>Wind forecast for undefined</a> provided by <a rel='nofollow' href='https://www.windfinder.com?utm_source=forecast&utm_medium=web&utm_campaign=homepageweather&utm_content=noscript-logo'>windfinder.com</a></noscript>
+    <script type="text/javascript" async src="https://www.windfinder.com/widget/forecast/js/kolobrzeg?unit_wave=m&unit_rain=mm&unit_temperature=c&unit_wind=kts&days=4&show_day=1"></script><noscript><a rel='nofollow' href='https://www.windfinder.com/forecast/kolobrzeg?utm_source=forecast&utm_medium=web&utm_campaign=homepageweather&utm_content=noscript-forecast'>Wind forecast for undefined</a> provided by <a rel='nofollow' href='https://www.windfinder.com?utm_source=forecast&utm_medium=web&utm_campaign=homepageweather&utm_content=noscript-logo'>windfinder.com</a></noscript>
   </div>
 
   {{ .Content }}
@@ -144,6 +189,46 @@
     mySiema.next();
   }, 8000);
   
+
+  const targetDate = new Date('2023-07-29T08:00:00.000Z');
+
+  // Function to update the countdown timer
+  function updateTimer() {
+    // Current date and time
+    var now = new Date();
+
+    // Time remaining until the target date
+    var timeRemaining = targetDate - now;
+
+    // Check if the target date has already passed
+    if (timeRemaining <= 0) {
+      clearInterval(timer);
+      document.querySelector('.counter').classList.remove('d-flex');
+      document.querySelector('.counter').innerHTML = '<h1 class="display-5 fw-bold">Regaty rozpoczęte!</div>';
+      return;
+    }
+
+    // Calculate the remaining days, hours, minutes, and seconds
+    var days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
+    var dni = ' dni';
+    if(days === 1){
+      dni = 'dzień';
+    }
+    var hours = Math.floor((timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
+
+    document.getElementById('days').innerHTML = days + dni;
+    document.getElementById('hours').innerHTML = hours;
+    document.getElementById('minutes').innerHTML = minutes;
+    document.getElementById('seconds').innerHTML = seconds;
+  }
+
+  // Update the timer immediately
+  updateTimer();
+
+  var timer = setInterval(updateTimer, 1000); 
+
 </script>
 
 <style>
@@ -158,6 +243,45 @@
   @media screen and (max-width: 768px){
     .partner-item{
       width: 100%;  
+    }
+  }
+
+  .promo{
+    padding-bottom: 500px;
+    color: #fff;
+    margin-bottom: 100px;
+  }
+
+  .counter 
+  {
+    justify-content: space-between;
+    padding: 2rem;
+    margin: 2rem;
+  }
+  .counter div{
+    font-size: 4rem;
+    flex-grow: 1;
+    font-weight: 600;
+  }
+
+  .counter div{
+    flex-grow: 2;
+    width: 70px;
+  }
+
+  .counter div.separator{
+    flex-grow: 0.2;
+    width: 20px
+  }
+
+  .counter div.days{
+    flex-grow: 3;
+    width: auto;
+  }
+
+  @media screen and (max-width: 768px){
+    .counter div{
+      font-size: 2rem;
     }
   }
 </style>
