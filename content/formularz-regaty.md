@@ -13,7 +13,7 @@ Wypełnij poniższy formularz rejestracyjny i dołącz do tej niezwykłej żegla
 
 Jeśli nie chcesz uczestniczyć w regatach, ale chciałbyś zamówić naszą specjalną koszulkę upamiętniającą wydarzenie, prosimy o uzupełnienie formularza rejestracyjnego, pola dotyczące łodzi pozostaw puste, opłata 50zł nie zostanie naliczona.
 
-Opłaty rejestracyjnej można uiścić na konto klubu **27 1940 1076 3200 8533 0000 0000** lub w biurze rejestracyjnym w dzień startu regat.
+Opłatę rejestracyjną można uiścić na konto klubu **27 1940 1076 3200 8533 0000 0000** lub w biurze regat w piątek (28.07) od godziny 18:00.
 
 W przypadku jakichkolwiek pytań lub wątpliwości, prosimy o kontakt pod adresem e-mail: <a href="mailto:info@klubmorski.pl">info@klubmorski.pl</a>.
 
