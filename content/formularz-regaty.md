@@ -2,6 +2,7 @@
 title: "XLIV Regaty o Srebrny Dzwon - zapisy"
 description: 'Zapisz się do udziały w regatach XLIV o Srebrny Dzwon, które odbędą się w dniu 29.07.2023!'
 date: 2023-01-31T23:33:08+01:00
+fbimage: "https://klubmorski.pl/images/misc/fb-koszulka.webp"
 ---
 
 
