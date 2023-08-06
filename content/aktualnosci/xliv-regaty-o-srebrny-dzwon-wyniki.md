@@ -16,7 +16,7 @@ Oczywicie mamy szczegółowe wyniki, które przedstawiaja się następująco:
 
 {{< lightbox full="/images/galerie/srebrny-dzwon-2023/sdz23_065.webp" thumbnail="/images/galerie/srebrny-dzwon-2023/sdz23_065-thumb.webp" alt="">}}
 
-## Line of honours
+## Line honours
 czyli klasyfikacja w kolejności na  mecie - sumarycznie w obu wyścigach (tylko te jednostki, które ukończyły obydwa wyścigi)
 
 1. s/y Fujimo4 - sternik Stanisław Lenkiewicz
