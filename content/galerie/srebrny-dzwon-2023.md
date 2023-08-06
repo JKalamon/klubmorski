@@ -22,4 +22,7 @@ Wyniki możecie znaleźć [tutaj](/aktualnosci/xliv-regaty-o-srebrny-dzwon-wynik
 P.S. *Z tej galerii możecie ściągnąć zdjęcia w wysokiej roździelczości (np. w celu wydruku), aby to zrobić po przybliżeniu zdjęcia w górym prawym rogu możecie znaleźć ikonkę pobierania.*
 
 
+{{< youtube "hkwQBk8y9Z4" >}}
+
+
 {{< gallery gallery_dir="srebrny-dzwon-2023" enable_download="true" >}}
