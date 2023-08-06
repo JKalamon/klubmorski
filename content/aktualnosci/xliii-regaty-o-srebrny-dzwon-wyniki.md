@@ -61,6 +61,6 @@ Wynik w rozbiciu na poszczególne klasy przedstawiają się następująco:
 
 Mam nadzieję, że bawiliście sie dobrze i zapraszamy na następne imprezy – najbliższa to II etap Regat 3 Perły: Ustka – Darłowo – Ustka 10-11.2022.
 
-Zapraszamy również do obejrzenia **galerii zdjęć z tej imprezy**.
+Zapraszamy również do obejrzenia [galerii zdjęć z tej imprezy](/galerie/srebrny-dzwon-2022).
 
 Widzimy się!!!

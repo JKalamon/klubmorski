@@ -5,7 +5,7 @@ const path = require('path');
 
 // Configuration variables
 const containerName = 'hires';
-const folders = ['./static/images/galerie/dorsz-2022', './static/images/galerie/srebrny-dzwon-2021', './static/images/galerie/srebrny-dzwon-2022'];
+const folders = ['./static/images/galerie/srebrny-dzwon-2023'];
 const stateFilePath = './uploaded-files.json';
 
 // Load the Azure Blob Storage connection string from connection_string.txt

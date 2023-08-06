@@ -3,11 +3,7 @@ const fs = require('fs-extra')
 const path = require("path");
 
 const inputFolders = [
-  "static/images/dzwon2022",
-  "static/images/dorsz2022",
-  "static/images/dzwon2021",
-  "static/images/dzwon2020",
-  "static/images/misc",
+  "static/images/galerie/srebrny-dzwon-2023",
 ];
 
 const readDirectory = async (dir) => {
