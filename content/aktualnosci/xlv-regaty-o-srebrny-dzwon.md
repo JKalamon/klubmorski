@@ -16,6 +16,8 @@ Tak, tak - ten termin zbliża się szybciutko! W sobotę, 27 lipca 2024 roku, od
 
 Zapraszamy członków JKM "Joseph Conrad", rezydentów-armatorów naszej pięknej Mariny Solnej i oczywiście wszystkich innych wilków (i wilczyce) morskich mających ochotę troszkę pościgać się.
 
+{{< lightbox full="/images/misc/dzwon2024plakat.webp" thumbnail="/images/misc/dzwon2024plakat-thumb.webp" alt="">}}
+
 ## Miejsce i plan regat
 
 Regaty tradycyjnie odbędą się na redzie Portu Kołobrzeg. W zależności od warunków pogodowych planujemy rozegranie 3-4 wyścigów krótkich lub 1-2 dłuższych (Na Bornholm nie płyniemy).
