@@ -12,7 +12,7 @@ Jesteśmy najstarszym i jedynym aktualnie działającym w Kołobrzegu żeglarski
 
 ## Nasze jachty
 
-Posiadamy aktualnie 2 jachty, może już nie najmłodsze ale dzielnie sprawujące się na wodzie: **Difur** – jacht regatowy, bez specjalnych wygód ale bardzo trudny do dogonienia przez inne jachty **Fayna** – wygodna, nieźle wyposażona jednostka do turystycznego pływania przybrzeżnego Stowarzyszamy również armatorów jachtów prywatnych, wśród których znajdują się prawdziwe “okręty”, na których członkowie klubu mają możliwość próbowania morskiej przygody.
+Posiadamy aktualnie 2 jachty, może już nie najmłodsze ale dzielnie sprawujące się na wodzie: **Difur** – jacht regatowy, bez specjalnych wygód ale bardzo trudny do dogonienia przez inne jachty **Beau4** –  jacht uzyczony pzez zaprzyjaźnionego armatora. Udana konstrukcja Dufour 27 Safari. Do wygodnego pływanie do bliższych i dalszych portów, dobrze poprowadzona również w regatach nie bez szans! Stowarzyszamy również armatorów jachtów prywatnych, wśród których znajdują się prawdziwe “okręty”, na których członkowie klubu mają możliwość próbowania morskiej przygody.
 
 ## Coroczne regaty
 Naszą wizytówką są corocznie organizowane w okresie letnim **“Regaty o Srebrny Dzwon“**, w tym roku będzie to ich już 41 edycja. Trasa regat zawsze poprowadzona jest w sposób umożliwiający obserwowanie zmagań z brzegu. Organizujemy oczywiście pływania redowe jak również do pobliskich portów. W tym roku planujemy również dalsze rejsy, np. Bornholm.
