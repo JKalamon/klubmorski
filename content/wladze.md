@@ -1,7 +1,7 @@
 ---
 title: "XLIII Regaty O Srebrny Dzwon - wyniki"
 description: 'Jesteśmy klubem żeglarskim w Kołobrzegu. Siedzibą JKM “Joseph Conrad” jest kołobrzeska Marina Solna. Działamy jako zarejestrowane stowarzyszenie sportowe.'
-date: 2022-08-05T12:00:00+01:00
+date: 2024-10-05T12:00:00+01:00
 ---
 
 # Kim jesteśmy
@@ -24,24 +24,3 @@ Klub zrzesza aktualnie około 35 czynnych członków, zarówno z Kołobrzegu i o
 
 ## Władze
 {{<management>}}
-
-
-## Komandorzy honorowi
-- Anna Mieczkowska
-- Artur Lijewski
-- Janusz Gromek
-- Krzysztof Chodakowski
-- Tomasz Tamborski
-- Janusz Kowalkiewicz
-
-## Jachty armatorów stowarzyszonych w klubie
-
-- ALOA 25
-- BONITO 700
-- DEEDEE
-- JONICA
-- LISICZKA
-- PAHOA
-- PASSAT
-- SCINTILLA
-- SURI
