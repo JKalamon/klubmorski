@@ -23,4 +23,4 @@ Klub zrzesza aktualnie około 35 czynnych członków, zarówno z Kołobrzegu i o
 [Zapraszamy w nasze szeregi!](/dolacz-do-nas)
 
 ## Władze
-{{<management>}}
+P.O. Urszula Rafalska
